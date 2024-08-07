@@ -22,7 +22,7 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="pages/home-travel.php"><img src="assets/img/logo-white.svg" alt="Tourm"></a>
+                                    <a href="index.php?page=home-travel"><img src="assets/img/logo-white.svg" alt="Tourm"></a>
                                 </div>
                                 <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                                 <div class="th-social">
@@ -41,11 +41,11 @@
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
 
-                                    <li><a href="pages/index.php">Home</a></li>
-                                    <li><a href="pages/about.php">About us</a></li>
-                                    <li><a href="pages/service.php">Our Service</a></li>
-                                    <li><a href="pages/contact.php">Terms of Service</a></li>
-                                    <li><a href="pages/contact.php">Tour Booking Now</a></li>
+                                    <li><a href="index.php?page=index">Home</a></li>
+                                    <li><a href="index.php?page=about">About us</a></li>
+                                    <li><a href="index.php?page=service">Our Service</a></li>
+                                    <li><a href="index.php?page=contact">Terms of Service</a></li>
+                                    <li><a href="index.php?page=contact">Tour Booking Now</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <p class="copyright-text">Copyright 2024 <a href="pages/home-travel.php">Tourm</a>. All Rights Reserved.</p>
+                        <p class="copyright-text">Copyright 2024 <a href="index.php?page=home-travel">Tourm</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">
                         <div class="footer-card">
@@ -163,7 +163,7 @@ modal Area
             <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <h3 class="box-title mb-30">Sign in to your account</h3>
                 <div class="th-login-form">
-                    <form action="mail.php" method="POST" class="login-form ajax-contact">
+                    <form action="mail" method="POST" class="login-form ajax-contact">
                         <div class="row">
                             <div class="form-group col-12">
                                 <label>Username or email</label>
@@ -179,7 +179,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="pages/my-account.php">Forgot password?</a>
+                            <a href="index.php?page=my-account">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>
@@ -187,7 +187,7 @@ modal Area
             </div>
             <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <h3 class="th-form-title mb-30">Sign in to your account</h3>
-                <form action="mail.php" method="POST" class="login-form ajax-contact">
+                <form action="mail" method="POST" class="login-form ajax-contact">
                     <div class="row">
                         <div class="form-group col-12">
                             <label>Username*</label>
