@@ -128,25 +128,25 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
                                 <a href="index.php?page=blog"><i class="far fa-calendar"></i>24 Jun , 2024</a>
                             </div>
-                            <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Where Vision Meets Concrete
+                            <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Where Vision Meets Concrete
                                     Reality</a></h4>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta">
                                 <a href="index.php?page=blog"><i class="far fa-calendar"></i>22 Jun , 2024</a>
                             </div>
-                            <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Raising the Bar in Construction.</a></h4>
+                            <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Raising the Bar in Construction.</a></h4>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                         <a href="#">Activities</a>
                         <ul class="sub-menu">
                             <li><a href="index.php?page=activities">activities</a></li>
-                            <li><a href="index.php?page=activities-details">activities Details</a></li>
+                            <li><a href="index.php?page=activities_details">activities Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -259,7 +259,7 @@
                         <a href="#">Blog</a>
                         <ul class="sub-menu">
                             <li><a href="index.php?page=blog">Blog</a></li>
-                            <li><a href="index.php?page=blog-details">Blog Details</a></li>
+                            <li><a href="index.php?page=blog_details">Blog Details</a></li>
                         </ul>
                     </li>
                     <li>
@@ -352,7 +352,7 @@
                                         <a href="#">Activities</a>
                                         <ul class="sub-menu">
                                             <li><a href="index.php?page=activities">activities</a></li>
-                                            <li><a href="index.php?page=activities-details">activities Details</a></li>
+                                            <li><a href="index.php?page=activities_details">activities Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
@@ -384,7 +384,7 @@
                                         <a href="#">Blog</a>
                                         <ul class="sub-menu">
                                             <li><a href="index.php?page=blog">Blog</a></li>
-                                            <li><a href="index.php?page=blog-details">Blog Details</a></li>
+                                            <li><a href="index.php?page=blog_details">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
