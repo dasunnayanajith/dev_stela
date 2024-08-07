@@ -179,7 +179,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="index.php?page=my-account">Forgot password?</a>
+                            <a href="index.php?page=my_account">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>

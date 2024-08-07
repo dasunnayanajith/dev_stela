@@ -66,7 +66,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">beach casual-shoe</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">beach casual-shoe</a></h3>
                                         <span class="price">$35.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -91,7 +91,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Beach football</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Beach football</a></h3>
                                         <span class="price">$45.00<del>$60.00</del></span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -116,7 +116,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Hamok</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Hamok</a></h3>
                                         <span class="price">$20.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -141,7 +141,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Beach Hat</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Beach Hat</a></h3>
                                         <span class="price">$40.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -166,7 +166,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Sony Black Headphone</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Sony Black Headphone</a></h3>
                                         <span class="price">$65.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -191,7 +191,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Hoodie With Zipper</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Hoodie With Zipper</a></h3>
                                         <span class="price">$35.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -216,7 +216,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Trendy Sunglass</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Trendy Sunglass</a></h3>
                                         <span class="price">$25.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -241,7 +241,7 @@ Product Area
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">V-Neck T-Shirt</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">V-Neck T-Shirt</a></h3>
                                         <span class="price">$35.00</span>
                                         <div class="woocommerce-product-rating">
                                             <span class="count">(5.00 Review)</span>
@@ -269,7 +269,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$250.00<del>$550.00</del></span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">beach casual-shoe</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">beach casual-shoe</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -288,7 +288,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$220.00</span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Beach football</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Beach football</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -307,7 +307,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$240.00</span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Hamok</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Hamok</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -326,7 +326,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$265.00</span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Beach Hat</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Beach Hat</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -345,7 +345,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$235.00</span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Sony Black Headphone</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Sony Black Headphone</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -364,7 +364,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$225.00</span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Hoodie With Zipper</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Hoodie With Zipper</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -383,7 +383,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$235.00</span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">Trendy Sunglass</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">Trendy Sunglass</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>
@@ -402,7 +402,7 @@ Product Area
                                     </div>
                                     <div class="product-content">
                                         <span class="price">$250.00<del>$550.00</del></span>
-                                        <h3 class="product-title"><a href="index.php?page=shop-details">V-Neck T-Shirt</a></h3>
+                                        <h3 class="product-title"><a href="index.php?page=shop_details">V-Neck T-Shirt</a></h3>
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                         </div>

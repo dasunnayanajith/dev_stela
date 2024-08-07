@@ -174,10 +174,10 @@ Checkout Arae
                     <tbody>
                         <tr class="cart_item">
                             <td data-title="Product">
-                                <a class="cart-productimage" href="index.php?page=shop-details"><img width="91" height="91" src="assets/img/product/product_1_1.png" alt="Image"></a>
+                                <a class="cart-productimage" href="index.php?page=shop_details"><img width="91" height="91" src="assets/img/product/product_1_1.png" alt="Image"></a>
                             </td>
                             <td data-title="Name">
-                                <a class="cart-productname" href="index.php?page=shop-details">beach casual-shoe</a>
+                                <a class="cart-productname" href="index.php?page=shop_details">beach casual-shoe</a>
                             </td>
                             <td data-title="Price">
                                 <span class="amount"><bdi><span>$</span>18</bdi></span>

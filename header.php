@@ -204,7 +204,7 @@
                         <ul class="sub-menu">
                             <li><a href="index.php?page=home-travel">Home Travel</a></li>
                             <li><a href="index.php?page=home-tour">Home Tour</a></li>
-                            <li><a href="index.php?page=home-agency">Home Agency</a></li>
+                            <li><a href="index.php?page=home_agency">Home Agency</a></li>
 
                         </ul>
                     </li>
@@ -213,14 +213,14 @@
                         <a href="#">Destination</a>
                         <ul class="sub-menu">
                             <li><a href="index.php?page=destination">Destination</a></li>
-                            <li><a href="index.php?page=destination-details">Destination Details</a></li>
+                            <li><a href="index.php?page=destination_details">Destination Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Service</a>
                         <ul class="sub-menu">
                             <li><a href="index.php?page=service">Services</a></li>
-                            <li><a href="index.php?page=service-details">Service Details</a></li>
+                            <li><a href="index.php?page=service_details">Service Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -237,7 +237,7 @@
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
                                     <li><a href="index.php?page=shop">Shop</a></li>
-                                    <li><a href="index.php?page=shop-details">Shop Details</a></li>
+                                    <li><a href="index.php?page=shop_details">Shop Details</a></li>
                                     <li><a href="index.php?page=cart">Cart Page</a></li>
                                     <li><a href="index.php?page=checkout">Checkout</a></li>
                                     <li><a href="index.php?page=wishlist">Wishlist</a></li>
@@ -246,9 +246,9 @@
 
                             <li><a href="index.php?page=gallery">Gallery</a></li>
                             <li><a href="index.php?page=tour">Our Tour</a></li>
-                            <li><a href="index.php?page=tour-details">Tour Details</a></li>
-                            <li><a href="index.php?page=tour-guide">Tour Guider</a></li>
-                            <li><a href="index.php?page=tour-guider-details">Tour Guider Details</a></li>
+                            <li><a href="index.php?page=tour_details">Tour Details</a></li>
+                            <li><a href="index.php?page=tour_guide">Tour Guider</a></li>
+                            <li><a href="index.php?page=tour_guider_details">Tour Guider Details</a></li>
                             <li><a href="index.php?page=faq">Faq Page</a></li>
                             <li><a href="index.php?page=price">Price Package</a></li>
                             <li><a href="index.php?page=error">Error Page</a></li>
@@ -329,7 +329,7 @@
                                         <ul class="sub-menu">
                                             <li><a href="index.php?page=home-travel">Home Travel</a></li>
                                             <li><a href="index.php?page=home-tour">Home Tour</a></li>
-                                            <li><a href="index.php?page=home-agency">Home Agency</a></li>
+                                            <li><a href="index.php?page=home_agency">Home Agency</a></li>
 
                                         </ul>
                                     </li>
@@ -338,14 +338,14 @@
                                         <a href="#">Destination</a>
                                         <ul class="sub-menu">
                                             <li><a href="index.php?page=destination">Destination</a></li>
-                                            <li><a href="index.php?page=destination-details">Destination Details</a></li>
+                                            <li><a href="index.php?page=destination_details">Destination Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Service</a>
                                         <ul class="sub-menu">
                                             <li><a href="index.php?page=service">Services</a></li>
-                                            <li><a href="index.php?page=service-details">Service Details</a></li>
+                                            <li><a href="index.php?page=service_details">Service Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
@@ -362,7 +362,7 @@
                                                 <a href="#">Shop</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="index.php?page=shop">Shop</a></li>
-                                                    <li><a href="index.php?page=shop-details">Shop Details</a></li>
+                                                    <li><a href="index.php?page=shop_details">Shop Details</a></li>
                                                     <li><a href="index.php?page=cart">Cart Page</a></li>
                                                     <li><a href="index.php?page=checkout">Checkout</a></li>
                                                     <li><a href="index.php?page=wishlist">Wishlist</a></li>
@@ -371,9 +371,9 @@
 
                                             <li><a href="index.php?page=gallery">Gallery</a></li>
                                             <li><a href="index.php?page=tour">Our Tour</a></li>
-                                            <li><a href="index.php?page=tour-details">Tour Details</a></li>
-                                            <li><a href="index.php?page=tour-guide">Tour Guider</a></li>
-                                            <li><a href="index.php?page=tour-guider-details">Tour Guider Details</a></li>
+                                            <li><a href="index.php?page=tour_details">Tour Details</a></li>
+                                            <li><a href="index.php?page=tour_guide">Tour Guider</a></li>
+                                            <li><a href="index.php?page=tour_guider_details">Tour Guider Details</a></li>
                                             <li><a href="index.php?page=faq">Faq Page</a></li>
                                             <li><a href="index.php?page=price">Price Package</a></li>
                                             <li><a href="index.php?page=error">Error Page</a></li>

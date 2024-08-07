@@ -1,377 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tourm - Travel & Tour Booking Agency HTML Template - Home Agency</title>
-    <meta name="author" content="Tourm">
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template ">
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template ">
-    <meta name="robots" content="INDEX,FOLLOW">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!--==============================
-	  Google Fonts
-	============================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap" rel="stylesheet">
-
-    <!--==============================
-	    All CSS File
-	============================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-
-    <!-- Swiper css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-</head>
-
-<body>
-
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  	<![endif]-->
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-    <div class="magic-cursor relative z-10">
-        <div class="cursor"></div>
-        <div class="cursor-follower"></div>
-    </div>
-
-
-    <!--==============================
-     Preloader
-  ==============================-->
-    <div id="preloader" class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <img src="assets/img/logo3.svg" alt="">
-        </div>
-
-        <div id="loader" class="th-preloader">
-            <div class="animation-preloader">
-                <div class="txt-loading">
-                    <span preloader-text="T" class="characters">T </span>
-
-                    <span preloader-text="O" class="characters">O </span>
-
-                    <span preloader-text="U" class="characters">U </span>
-
-                    <span preloader-text="R" class="characters">R </span>
-
-                    <span preloader-text="M" class="characters">M </span>
-                </div>
-            </div>
-        </div>
-
-    </div> <!--==============================
-    Sidemenu
-============================== -->
-    <div class="sidemenu-wrapper sidemenu-info ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget  ">
-                <div class="th-widget-about">
-                    <div class="about-logo">
-                        <a href="home-travel.html"><img src="assets/img/logo2.svg" alt="Tourm"></a>
-                    </div>
-                    <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                    <div class="th-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="widget  ">
-                <h3 class="widget_title">Recent Posts</h3>
-                <div class="recent-post-wrap">
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24 Jun , 2024</a>
-                            </div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Where Vision Meets Concrete
-                                    Reality</a></h4>
-                        </div>
-                    </div>
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>22 Jun , 2024</a>
-                            </div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Raising the Bar in Construction.</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="widget  ">
-                <h3 class="widget_title">Get In Touch</h3>
-                <div class="th-widget-contact">
-                    <div class="info-box_text">
-                        <div class="icon">
-                            <img src="assets/img/icon/phone.svg" alt="img">
-                        </div>
-                        <div class="details">
-                            <p><a href="tel:+01234567890" class="info-box_link">+01 234 567 890</a></p>
-                            <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                        </div>
-                    </div>
-                    <div class="info-box_text">
-                        <div class="icon">
-                            <img src="assets/img/icon/envelope.svg" alt="img">
-                        </div>
-                        <div class="details">
-                            <p><a href="mailto:mailinfo00@tourm.com" class="info-box_link">mailinfo00@tourm.com</a></p>
-                            <p><a href="mailto:support24@tourm.com" class="info-box_link">support24@tourm.com</a></p>
-                        </div>
-                    </div>
-                    <div class="info-box_text">
-                        <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                        <div class="details">
-                            <p>789 Inner Lane, Holy park, California, USA</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="popup-search-box">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div><!--==============================
-    Mobile Menu
-  ============================== -->
-    <div class="th-menu-wrapper onepage-nav">
-        <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="home-travel.html"><img src="assets/img/logo2.svg" alt="Tourm"></a>
-            </div>
-            <div class="th-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children">
-                        <a class="active" href="home-travel.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="home-travel.html">Home Travel</a></li>
-                            <li><a href="home-tour.html">Home Tour</a></li>
-                            <li><a href="home-agency.html">Home Agency</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Destination</a>
-                        <ul class="sub-menu">
-                            <li><a href="destination.html">Destination</a></li>
-                            <li><a href="destination-details.html">Destination Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Service</a>
-                        <ul class="sub-menu">
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Activities</a>
-                        <ul class="sub-menu">
-                            <li><a href="activities.html">activities</a></li>
-                            <li><a href="activities-details.html">activities Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                </ul>
-                            </li>
-
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="tour.html">Our Tour</a></li>
-                            <li><a href="tour-details.html">Tour Details</a></li>
-                            <li><a href="tour-guide.html">Tour Guider</a></li>
-                            <li><a href="tour-guider-details.html">Tour Guider Details</a></li>
-                            <li><a href="faq.html">Faq Page</a></li>
-                            <li><a href="price.html">Price Package</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div><!--==============================
-	Header Area
-==============================-->
-    <header class="th-header header-layout3 header-absolute">
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-xl-block">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a class="active" href="home-travel.html">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-travel.html">Home Travel</a></li>
-                                            <li><a href="home-tour.html">Home Tour</a></li>
-                                            <li><a href="home-agency.html">Home Agency</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Destination</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="destination.html">Destination</a></li>
-                                            <li><a href="destination-details.html">Destination Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Service</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.html">
-                                    <img src="assets/img/logo-white2.svg" alt="Tourm">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-xl-block">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Activities</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="activities.html">activities</a></li>
-                                            <li><a href="activities-details.html">activities Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Cart Page</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="tour.html">Our Tour</a></li>
-                                            <li><a href="tour-details.html">Tour Details</a></li>
-                                            <li><a href="tour-guide.html">Tour Guider</a></li>
-                                            <li><a href="tour-guider-details.html">Tour Guider Details</a></li>
-                                            <li><a href="faq.html">Faq Page</a></li>
-                                            <li><a href="price.html">Price Package</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact us</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="far fa-bars"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-right-button">
-                    <a href="#" class="simple-btn sideMenuToggler"><img src="assets/img/icon/menu.svg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--==============================
-Hero Area
-==============================-->
-    <!--==============================
+<!--==============================
 Hero Area
 ==============================-->
     <div class="hero-3" id="hero">
@@ -390,7 +17,7 @@ Hero Area
                                     travel management company with 25 years of
                                     experience, specializing in business and maritime travel.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="destination.html" class="th-btn style2 th-icon">Explore Tours</a>
+                                    <a href="index.php?page=destination" class="th-btn style2 th-icon">Explore Tours</a>
                                 </div>
                             </div>
                         </div>
@@ -409,7 +36,7 @@ Hero Area
                                     travel management company with 25 years of
                                     experience, specializing in business and maritime travel.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="destination.html" class="th-btn style2 th-icon">Explore Tours</a>
+                                    <a href="index.php?page=destination" class="th-btn style2 th-icon">Explore Tours</a>
                                 </div>
                             </div>
                         </div>
@@ -428,7 +55,7 @@ Hero Area
                                     travel management company with 25 years of
                                     experience, specializing in business and maritime travel.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="destination.html" class="th-btn style2 th-icon">Explore Tours</a>
+                                    <a href="index.php?page=destination" class="th-btn style2 th-icon">Explore Tours</a>
                                 </div>
                             </div>
                         </div>
@@ -447,7 +74,7 @@ Hero Area
                                     travel management company with 25 years of
                                     experience, specializing in business and maritime travel.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="destination.html" class="th-btn style2 th-icon">Explore Tours</a>
+                                    <a href="index.php?page=destination" class="th-btn style2 th-icon">Explore Tours</a>
                                 </div>
                             </div>
                         </div>
@@ -467,7 +94,7 @@ Hero Area
                                     travel management company with 25 years of
                                     experience, specializing in business and maritime travel.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                    <a href="destination.html" class="th-btn style2 th-icon">Explore Tours</a>
+                                    <a href="index.php?page=destination" class="th-btn style2 th-icon">Explore Tours</a>
                                 </div>
                             </div>
                         </div>
@@ -646,9 +273,9 @@ Destination Area
                                     <img src="assets/img/destination/destination_3_1.jpg" alt="image">
                                 </div>
                                 <div class="destination-content">
-                                    <h3 class="box-title"><a href="destination-details.html">Dubai, UAE</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=destination_details">Dubai, UAE</a></h3>
                                     <p class="destination-text">25 Listing</p>
-                                    <a href="destination-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                    <a href="index.php?page=destination_details" class="th-btn style4 th-icon">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -659,9 +286,9 @@ Destination Area
                                     <img src="assets/img/destination/destination_3_2.jpg" alt="image">
                                 </div>
                                 <div class="destination-content">
-                                    <h3 class="box-title"><a href="destination-details.html">Japan</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=destination_details">Japan</a></h3>
                                     <p class="destination-text">25 Listing</p>
-                                    <a href="destination-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                    <a href="index.php?page=destination_details" class="th-btn style4 th-icon">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -672,9 +299,9 @@ Destination Area
                                     <img src="assets/img/destination/destination_3_3.jpg" alt="image">
                                 </div>
                                 <div class="destination-content">
-                                    <h3 class="box-title"><a href="destination-details.html">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=destination_details">Switzerland</a></h3>
                                     <p class="destination-text">25 Listing</p>
-                                    <a href="destination-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                    <a href="index.php?page=destination_details" class="th-btn style4 th-icon">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -685,9 +312,9 @@ Destination Area
                                     <img src="assets/img/destination/destination_3_4.jpg" alt="image">
                                 </div>
                                 <div class="destination-content">
-                                    <h3 class="box-title"><a href="destination-details.html">Brazil</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=destination_details">Brazil</a></h3>
                                     <p class="destination-text">25 Listing</p>
-                                    <a href="destination-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                    <a href="index.php?page=destination_details" class="th-btn style4 th-icon">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -698,9 +325,9 @@ Destination Area
                                     <img src="assets/img/destination/destination_3_1.jpg" alt="image">
                                 </div>
                                 <div class="destination-content">
-                                    <h3 class="box-title"><a href="destination-details.html">Dubai, UAE</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=destination_details">Dubai, UAE</a></h3>
                                     <p class="destination-text">25 Listing</p>
-                                    <a href="destination-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                    <a href="index.php?page=destination_details" class="th-btn style4 th-icon">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -711,9 +338,9 @@ Destination Area
                                     <img src="assets/img/destination/destination_3_2.jpg" alt="image">
                                 </div>
                                 <div class="destination-content">
-                                    <h3 class="box-title"><a href="destination-details.html">Japan</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=destination_details">Japan</a></h3>
                                     <p class="destination-text">25 Listing</p>
-                                    <a href="destination-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                    <a href="index.php?page=destination_details" class="th-btn style4 th-icon">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -722,7 +349,7 @@ Destination Area
                 </div>
             </div>
             <div class="destination-btn text-center mt-60">
-                <a href="destination.html" class="th-btn style3 th-icon">View All</a>
+                <a href="index.php?page=destination" class="th-btn style3 th-icon">View All</a>
             </div>
         </div>
     </section><!--==============================
@@ -742,8 +369,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_1.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Cruises</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Cruises</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -752,8 +379,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_2.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Hiking</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Hiking</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -762,8 +389,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_3.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Airbirds</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Airbirds</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -772,8 +399,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_4.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Wildlife</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Wildlife</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -782,8 +409,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_5.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Walking</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Walking</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -792,8 +419,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_1.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Cruises</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Cruises</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -802,8 +429,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_2.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Hiking</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Hiking</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -812,8 +439,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_3.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Airbirds</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Airbirds</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -822,8 +449,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_4.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Wildlife</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Wildlife</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -832,8 +459,8 @@ Category Area
                                 <div class="box-img global-img">
                                     <img src="assets/img/category/category_1_5.jpg" alt="Image">
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Walking</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="index.php?page=destination">Walking</a></h3>
+                                <a class="line-btn" href="index.php?page=destination">See more</a>
                             </div>
                         </div>
 
@@ -896,7 +523,7 @@ About Area
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-35"><a href="about.html" class="th-btn style3 th-icon">Learn More</a></div>
+                        <div class="mt-35"><a href="index.php?page=about" class="th-btn style3 th-icon">Learn More</a></div>
                     </div>
                 </div>
             </div>
@@ -952,18 +579,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_1.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Greece Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -975,18 +602,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_2.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Italy Tour package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -998,18 +625,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_3.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Dubai Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1021,18 +648,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_4.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Switzerland</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1044,18 +671,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_1.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Greece Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1067,18 +694,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_2.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Italy Tour package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1090,18 +717,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_3.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Dubai Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1113,18 +740,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_4.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Switzerland</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1148,18 +775,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_5.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">The Plaza, New York</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">The Plaza, New York</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1171,18 +798,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_6.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Hotel Ritz Paris</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Hotel Ritz Paris</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$970.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1194,18 +821,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_7.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Claridge’s, London</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Claridge’s, London</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$960.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1217,18 +844,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_8.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Taj Mahal Palace, India</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Taj Mahal Palace, India</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$940.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1240,18 +867,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_9.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Peninsula Hong Kong</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Peninsula Hong Kong</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$970.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1263,18 +890,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_10.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">The Ritz Hotel London</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">The Ritz Hotel London</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$940.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1286,18 +913,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_11.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">The Shelbourne Hotel, Dublin</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">The Shelbourne Hotel, Dublin</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$990.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1309,18 +936,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_12.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Beverly Hills Hotel</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Beverly Hills Hotel</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$950.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1343,18 +970,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_13.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Caravan Trip Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Caravan Trip Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1366,18 +993,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_14.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Sleeper Buses Package </a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Sleeper Buses Package </a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1389,18 +1016,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_15.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Trips by Train Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Trips by Train Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1412,18 +1039,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_16.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Travel by Air Flight Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Travel by Air Flight Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1435,18 +1062,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_17.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Cruise Transports Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Cruise Transports Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1458,18 +1085,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_18.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Travel by Air Flight Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Travel by Air Flight Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1481,18 +1108,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_19.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Sleeper Buses Package </a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Sleeper Buses Package </a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1504,18 +1131,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_20.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="tour-details.html">Trips by Train Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Trips by Train Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="tour-guider-details.html" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1679,7 +1306,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Michel Smith</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1706,7 +1333,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Janny Willson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Janny Willson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1733,7 +1360,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1760,7 +1387,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Maria Prova</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Maria Prova</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1787,7 +1414,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Rebeka Maliha</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Rebeka Maliha</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1814,7 +1441,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Alif Mahmud</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Alif Mahmud</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1841,7 +1468,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -1868,7 +1495,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -2230,7 +1857,7 @@ Blog Area
                 </div>
                 <div class="col-lg-auto d-none d-lg-block">
                     <div class="sec-btn">
-                        <a href="blog.html" class="th-btn style4 th-icon">See More Articles</a>
+                        <a href="index.php?page=blog" class="th-btn style4 th-icon">See More Articles</a>
                     </div>
                 </div>
             </div>
@@ -2242,12 +1869,12 @@ Blog Area
                         </div>
                         <div class="blog-grid_content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html">July 05, 2024</a>
-                                <a href="blog.html">6 min read</a>
+                                <a class="author" href="index.php?page=blog">July 05, 2024</a>
+                                <a href="index.php?page=blog">6 min read</a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Travel agency for those who want to explore
+                            <h3 class="box-title"><a href="index.php?page=blog-details">Travel agency for those who want to explore
                                     the world and try to make adventure</a></h3>
-                            <a href="blog-details.html" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -2258,13 +1885,13 @@ Blog Area
                         </div>
                         <div class="blog-grid_content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html">July 07, 2024</a>
-                                <a href="blog.html">7 min read</a>
+                                <a class="author" href="index.php?page=blog">July 07, 2024</a>
+                                <a href="index.php?page=blog">7 min read</a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">The best time to visit japan & enjoy the
+                            <h3 class="box-title"><a href="index.php?page=blog-details">The best time to visit japan & enjoy the
                                     cherry
                                     blossoms</a></h3>
-                            <a href="blog-details.html" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                     <div class="blog-grid th-ani style2 mt-24">
@@ -2273,12 +1900,12 @@ Blog Area
                         </div>
                         <div class="blog-grid_content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html">July 10, 2024</a>
-                                <a href="blog.html">8 min read</a>
+                                <a class="author" href="index.php?page=blog">July 10, 2024</a>
+                                <a href="index.php?page=blog">8 min read</a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Hiden history of Japan in the world and try to
+                            <h3 class="box-title"><a href="index.php?page=blog-details">Hiden history of Japan in the world and try to
                                     make adventure</a></h3>
-                            <a href="blog-details.html" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -2299,269 +1926,3 @@ Blog Area
     </section><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper bg-title footer-layout2">
-        <div class="widget-area">
-            <div class="container">
-                <div class="newsletter-area">
-                    <div class="newsletter-top">
-                        <div class="row gy-4 align-items-center">
-                            <div class="col-lg-5">
-                                <h2 class="newsletter-title text-white text-capitalize mb-0">get updated the latest
-                                    newsletter</h2>
-                            </div>
-                            <div class="col-lg-7">
-                                <form class="newsletter-form style2">
-                                    <input class="form-control " type="email" placeholder="Enter Email" required="">
-                                    <button type="submit" class="th-btn style1">Subscribe Now <img src="assets/img/icon/plane2.svg" alt=""></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-3">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                    <a href="home-travel.html"><img src="assets/img/logo-white.svg" alt="Tourm"></a>
-                                </div>
-                                <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
-                                <div class="th-social">
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Quick Links</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="service.html">Our Service</a></li>
-                                    <li><a href="contact.html">Terms of Service</a></li>
-                                    <li><a href="contact.html">Tour Booking Now</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Get In Touch</h3>
-                            <div class="th-widget-contact">
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/phone.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="tel:+01234567890" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/envelope.svg" alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p><a href="mailto:mailinfo00@tourm.com" class="info-box_link">mailinfo00@tourm.com</a></p>
-                                        <p><a href="mailto:support24@tourm.com" class="info-box_link">support24@tourm.com</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
-                                    <div class="details">
-                                        <p>789 Inner Lane, Holy park, California, USA</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Instagram Post</h3>
-                            <div class="sidebar-gallery">
-                                <div class="gallery-thumb">
-                                    <img src="assets/img/widget/gallery_1_1.jpg" alt="Gallery Image">
-                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="assets/img/widget/gallery_1_2.jpg" alt="Gallery Image">
-                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="assets/img/widget/gallery_1_3.jpg" alt="Gallery Image">
-                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="assets/img/widget/gallery_1_4.jpg" alt="Gallery Image">
-                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="assets/img/widget/gallery_1_5.jpg" alt="Gallery Image">
-                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                                </div>
-                                <div class="gallery-thumb">
-                                    <img src="assets/img/widget/gallery_1_6.jpg" alt="Gallery Image">
-                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-wrap">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-md-6">
-                        <p class="copyright-text">Copyright 2024 <a href="home-travel.html">Tourm</a>. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-md-6 text-end d-none d-md-block">
-                        <div class="footer-card">
-                            <span class="title">We Accept</span>
-                            <img src="assets/img/shape/cards.png" alt="">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="shape-mockup movingX d-none d-xxl-block" data-top="24%" data-left="5%">
-            <img src="assets/img/shape/shape_8.png" alt="shape">
-        </div>
-    </footer>
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-
-    <!-- Scroll To Top -->
-    <div class="scroll-top">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
-            </path>
-        </svg>
-    </div>
-    <!--==============================
-modal Area  
-==============================-->
-    <div id="login-form" class="popup-login-register mfp-hide">
-        <ul class="nav" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-menu" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">Login</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-menu active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">Register</button>
-            </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                <h3 class="box-title mb-30">Sign in to your account</h3>
-                <div class="th-login-form">
-                    <form action="mail.php" method="POST" class="login-form ajax-contact">
-                        <div class="row">
-                            <div class="form-group col-12">
-                                <label>Username or email</label>
-                                <input type="text" class="form-control" name="email" id="email" required="required">
-                            </div>
-                            <div class="form-group col-12">
-                                <label>Password</label>
-                                <input type="password" class="form-control" name="pasword" id="pasword" required="required">
-                            </div>
-
-                            <div class="form-btn mb-20 col-12">
-                                <button class="th-btn btn-fw th-radius2 ">Send Message</button>
-                            </div>
-                        </div>
-                        <div id="forgot_url">
-                            <a href="my-account.html">Forgot password?</a>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
-                </div>
-            </div>
-            <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <h3 class="th-form-title mb-30">Sign in to your account</h3>
-                <form action="mail.php" method="POST" class="login-form ajax-contact">
-                    <div class="row">
-                        <div class="form-group col-12">
-                            <label>Username*</label>
-                            <input type="text" class="form-control" name="usename" id="usename" required="required">
-                        </div>
-                        <div class="form-group col-12">
-                            <label>First name*</label>
-                            <input type="text" class="form-control" name="firstname" id="firstname" required="required">
-                        </div>
-                        <div class="form-group col-12">
-                            <label>Last name*</label>
-                            <input type="text" class="form-control" name="lastname" id="lastname" required="required">
-                        </div>
-                        <div class="form-group col-12">
-                            <label for="new_email">Your email*</label>
-                            <input type="text" class="form-control" name="new_email" id="new_email" required="required">
-                        </div>
-                        <div class="form-group col-12">
-                            <label for="new_email_confirm">Confirm email*</label>
-                            <input type="text" class="form-control" name="new_email_confirm" id="new_email_confirm" required="required">
-                        </div>
-                        <div class="statement">
-                            <span class="register-notes">A password will be emailed to you.</span>
-                        </div>
-
-                        <div class="form-btn mt-20 col-12">
-                            <button class="th-btn btn-fw th-radius2 ">Sign up</button>
-                        </div>
-                    </div>
-                    <p class="form-messages mb-0 mt-3"></p>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!--==============================
-    All Js File
-============================== -->
-    <!-- Jquery -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- imagesloaded -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- isotope -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- gsap -->
-    <script src="assets/js/gsap.min.js"></script>
-
-    <!-- circle-progress -->
-    <script src="assets/js/circle-progress.js"></script>
-
-    <script src="assets/js/matter.min.js"></script>
-    <script src="assets/js/matterjs-custom.js"></script>
-
-
-    <!-- nice select -->
-    <script src="assets/js/nice-select.min.js"></script>
-
-
-
-
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>

@@ -227,7 +227,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Michel Smith</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -254,7 +254,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Janny Willson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Janny Willson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -281,7 +281,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -308,7 +308,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Maria Prova</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Maria Prova</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -335,7 +335,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Rebeka Maliha</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Rebeka Maliha</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -362,7 +362,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Alif Mahmud</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Alif Mahmud</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -389,7 +389,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -416,7 +416,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 

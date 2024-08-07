@@ -333,12 +333,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Maldives</a>
+                                            <a href="index.php?page=destination_details">Maldives</a>
                                         </h4>
                                         <span class="destination-subtitle">15 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -351,12 +351,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Thailand</a>
+                                            <a href="index.php?page=destination_details">Thailand</a>
                                         </h4>
                                         <span class="destination-subtitle">22 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -369,12 +369,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Belgium</a>
+                                            <a href="index.php?page=destination_details">Belgium</a>
                                         </h4>
                                         <span class="destination-subtitle">25 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -387,12 +387,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Island</a>
+                                            <a href="index.php?page=destination_details">Island</a>
                                         </h4>
                                         <span class="destination-subtitle">28 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -405,12 +405,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Maldives</a>
+                                            <a href="index.php?page=destination_details">Maldives</a>
                                         </h4>
                                         <span class="destination-subtitle">30 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -423,12 +423,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Maldives</a>
+                                            <a href="index.php?page=destination_details">Maldives</a>
                                         </h4>
                                         <span class="destination-subtitle">15 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -441,12 +441,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Thailand</a>
+                                            <a href="index.php?page=destination_details">Thailand</a>
                                         </h4>
                                         <span class="destination-subtitle">22 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -459,12 +459,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Belgium</a>
+                                            <a href="index.php?page=destination_details">Belgium</a>
                                         </h4>
                                         <span class="destination-subtitle">25 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -477,12 +477,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Island</a>
+                                            <a href="index.php?page=destination_details">Island</a>
                                         </h4>
                                         <span class="destination-subtitle">28 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -495,12 +495,12 @@ destination Area
                                 <div class="destination-content">
                                     <div class="media-left">
                                         <h4 class="box-title">
-                                            <a href="index.php?page=destination-details">Maldives</a>
+                                            <a href="index.php?page=destination_details">Maldives</a>
                                         </h4>
                                         <span class="destination-subtitle">30 Listing</span>
                                     </div>
                                     <div class="">
-                                        <a href="index.php?page=destination-details" class="th-btn style2 th-icon">View All</a>
+                                        <a href="index.php?page=destination_details" class="th-btn style2 th-icon">View All</a>
                                     </div>
                                 </div>
                             </div>
@@ -612,18 +612,18 @@ Service Area
                                     <img src="assets/img/tour/tour_box_1.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=tour-details">Greece Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=tour_details">Greece Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                        <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -635,18 +635,18 @@ Service Area
                                     <img src="assets/img/tour/tour_box_2.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=tour-details">Italy Tour package</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=tour_details">Italy Tour package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                        <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -658,18 +658,18 @@ Service Area
                                     <img src="assets/img/tour/tour_box_3.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=tour-details">Dubai Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=tour_details">Dubai Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                        <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -681,18 +681,18 @@ Service Area
                                     <img src="assets/img/tour/tour_box_4.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=tour-details">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=tour_details">Switzerland</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                        <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -704,18 +704,18 @@ Service Area
                                     <img src="assets/img/tour/tour_box_1.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=tour-details">Greece Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=tour_details">Greece Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                        <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -727,18 +727,18 @@ Service Area
                                     <img src="assets/img/tour/tour_box_2.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=tour-details">Italy Tour package</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=tour_details">Italy Tour package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                        <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -924,7 +924,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -945,7 +945,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jane Cooper</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jane Cooper</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -966,7 +966,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -987,7 +987,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -1008,7 +1008,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -1029,7 +1029,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jane Cooper</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jane Cooper</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -1050,7 +1050,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -1071,7 +1071,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour_guider_details">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>

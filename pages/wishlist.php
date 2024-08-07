@@ -48,10 +48,10 @@ Checkout Area
                                     </button>
                                 </td>
                                 <td class="product-thumbnail">
-                                    <a href="index.php?page=shop-details"><img src="assets/img/product/product_1_1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
+                                    <a href="index.php?page=shop_details"><img src="assets/img/product/product_1_1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
                                 </td>
                                 <td class="product-name">
-                                    <a href="index.php?page=shop-details">beach casual-shoe</a>
+                                    <a href="index.php?page=shop_details">beach casual-shoe</a>
                                 </td>
                                 <td class="product-price">
                                     <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>45.00</bdi></span>
@@ -79,10 +79,10 @@ Checkout Area
                                     </button>
                                 </td>
                                 <td class="product-thumbnail">
-                                    <a href="index.php?page=shop-details"><img src="assets/img/product/product_1_2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
+                                    <a href="index.php?page=shop_details"><img src="assets/img/product/product_1_2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
                                 </td>
                                 <td class="product-name">
-                                    <a href="index.php?page=shop-details">Beach football</a>
+                                    <a href="index.php?page=shop_details">Beach football</a>
                                 </td>
                                 <td class="product-price">
                                     <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>18.00</bdi></span></ins>
@@ -109,10 +109,10 @@ Checkout Area
                                     </button>
                                 </td>
                                 <td class="product-thumbnail">
-                                    <a href="index.php?page=shop-details"><img src="assets/img/product/product_1_3.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
+                                    <a href="index.php?page=shop_details"><img src="assets/img/product/product_1_3.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image"></a>
                                 </td>
                                 <td class="product-name">
-                                    <a href="index.php?page=shop-details">Hamok</a>
+                                    <a href="index.php?page=shop_details">Hamok</a>
                                 </td>
                                 <td class="product-price">
                                     <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>18.00</bdi></span></ins>

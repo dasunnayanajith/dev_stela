@@ -164,18 +164,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_1.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Greece Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Greece Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -187,18 +187,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_2.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Italy Tour package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Italy Tour package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -210,18 +210,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_3.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Dubai Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Dubai Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -233,18 +233,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_4.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Switzerland</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Switzerland</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -256,18 +256,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_1.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Greece Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Greece Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -279,18 +279,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_2.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Italy Tour package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Italy Tour package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -302,18 +302,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_3.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Dubai Tour Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Dubai Tour Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -325,18 +325,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_4.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Switzerland</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Switzerland</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -360,18 +360,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_5.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">The Plaza, New York</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">The Plaza, New York</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -383,18 +383,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_6.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Hotel Ritz Paris</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Hotel Ritz Paris</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$970.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -406,18 +406,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_7.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Claridge’s, London</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Claridge’s, London</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$960.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -429,18 +429,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_8.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Taj Mahal Palace, India</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Taj Mahal Palace, India</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$940.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -452,18 +452,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_9.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Peninsula Hong Kong</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Peninsula Hong Kong</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$970.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -475,18 +475,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_10.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">The Ritz Hotel London</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">The Ritz Hotel London</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$940.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -498,18 +498,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_11.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">The Shelbourne Hotel, Dublin</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">The Shelbourne Hotel, Dublin</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$990.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -521,18 +521,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_12.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Beverly Hills Hotel</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Beverly Hills Hotel</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$950.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -555,18 +555,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_13.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Caravan Trip Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Caravan Trip Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -578,18 +578,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_14.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Sleeper Buses Package </a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Sleeper Buses Package </a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -601,18 +601,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_15.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Trips by Train Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Trips by Train Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -624,18 +624,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_16.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Travel by Air Flight Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Travel by Air Flight Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -647,18 +647,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_17.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Cruise Transports Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Cruise Transports Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -670,18 +670,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_18.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Travel by Air Flight Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Travel by Air Flight Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -693,18 +693,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_19.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Sleeper Buses Package </a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Sleeper Buses Package </a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -716,18 +716,18 @@ Service Area
                                             <img src="assets/img/tour/tour_box_20.jpg" alt="image">
                                         </div>
                                         <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour-details">Trips by Train Package</a></h3>
+                                            <h3 class="box-title"><a href="index.php?page=tour_details">Trips by Train Package</a></h3>
                                             <div class="tour-rating">
                                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                         <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                         Rating)</span></div>
-                                                <a href="index.php?page=tour-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                                <a href="index.php?page=tour_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                                     Rating)</a>
                                             </div>
                                             <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                             <div class="tour-action">
                                                 <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour-guider-details" class="th-btn style4 th-icon">Book Now</a>
+                                                <a href="index.php?page=tour_guider_details" class="th-btn style4 th-icon">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
