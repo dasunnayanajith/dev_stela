@@ -21,7 +21,7 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="home-travel.html"><img src="assets/img/logo3.svg" alt="Tourm"></a>
+                                    <a href="pages/home-travel.php"><img src="assets/img/logo3.svg" alt="Tourm"></a>
                                 </div>
                                 <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                                 <div class="th-social">
@@ -40,11 +40,11 @@
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
 
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="service.html">Our Service</a></li>
-                                    <li><a href="contact.html">Terms of Service</a></li>
-                                    <li><a href="contact.html">Tour Booking Now</a></li>
+                                    <li><a href="pages/index.php">Home</a></li>
+                                    <li><a href="pages/about.php">About us</a></li>
+                                    <li><a href="pages/service.php">Our Service</a></li>
+                                    <li><a href="pages/contact.php">Terms of Service</a></li>
+                                    <li><a href="pages/contact.php">Tour Booking Now</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <p class="copyright-text">Copyright 2024 <a href="home-travel.html">Tourm</a>. All Rights Reserved.</p>
+                        <p class="copyright-text">Copyright 2024 <a href="pages/home-travel.php">Tourm</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">
                         <div class="footer-card">
@@ -176,7 +176,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="my-account.html">Forgot password?</a>
+                            <a href="pages/my-account.php">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>
