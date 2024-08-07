@@ -6,7 +6,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Tourm</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="home-travel.html">Home</a></li>
+                    <li><a href="index.php?page=home-travel">Home</a></li>
                     <li>About Tourm</li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@ About Area
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-35"><a href="contact.html" class="th-btn style3 th-icon">Contact With Us</a></div>
+                        <div class="mt-35"><a href="index.php?page=contact" class="th-btn style3 th-icon">Contact With Us</a></div>
                     </div>
                 </div>
             </div>
@@ -97,9 +97,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_1.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Photo Shoot</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Photo Shoot</a></h3>
                             <p class="destination-text">20 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -110,9 +110,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_2.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Tour Guide</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Tour Guide</a></h3>
                             <p class="destination-text">22 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -123,9 +123,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_3.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Cozy Event</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Cozy Event</a></h3>
                             <p class="destination-text">23 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -136,9 +136,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_4.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Interesting Rest</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Interesting Rest</a></h3>
                             <p class="destination-text">24 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -149,9 +149,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_5.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Kayaking</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Kayaking</a></h3>
                             <p class="destination-text">25 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -162,9 +162,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_6.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Safe Flight</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Safe Flight</a></h3>
                             <p class="destination-text">26 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -175,9 +175,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_7.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Entertainment</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Entertainment</a></h3>
                             <p class="destination-text">27 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -188,9 +188,9 @@ Destination Area
                             <img src="assets/img/destination/destination_4_8.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="contact.html">Delicisious Food</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Delicisious Food</a></h3>
                             <p class="destination-text">28 Listing</p>
-                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Michel Smith</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Michel Smith</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -254,7 +254,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Janny Willson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Janny Willson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -281,7 +281,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -308,7 +308,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Maria Prova</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Maria Prova</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -335,7 +335,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Rebeka Maliha</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Rebeka Maliha</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -362,7 +362,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Alif Mahmud</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Alif Mahmud</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -389,7 +389,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
@@ -416,7 +416,7 @@ Team Area
                                 </div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="index.php?page=tour-guider-details">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
 
 
