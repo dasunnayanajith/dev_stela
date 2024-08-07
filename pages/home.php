@@ -1470,8 +1470,8 @@ Blog Area
                                         <a class="author" href="index.php?page=blog">July 05 2024</a>
                                         <a href="index.php?page=blog">6 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="index.php?page=blog-details">10 Reason why you should visit New Jersy</a></h3>
-                                    <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                                    <h3 class="box-title"><a href="index.php?page=blog_details">10 Reason why you should visit New Jersy</a></h3>
+                                    <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1487,8 +1487,8 @@ Blog Area
                                         <a class="author" href="index.php?page=blog">July 06 2024</a>
                                         <a href="index.php?page=blog">7 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="index.php?page=blog-details">The best time to visit japan & enjoy the cherry blossoms</a></h3>
-                                    <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                                    <h3 class="box-title"><a href="index.php?page=blog_details">The best time to visit japan & enjoy the cherry blossoms</a></h3>
+                                    <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1504,8 +1504,8 @@ Blog Area
                                         <a class="author" href="index.php?page=blog">July 07 2024</a>
                                         <a href="index.php?page=blog">8 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="index.php?page=blog-details">The 7 amazing destinations for adventure seekers</a></h3>
-                                    <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                                    <h3 class="box-title"><a href="index.php?page=blog_details">The 7 amazing destinations for adventure seekers</a></h3>
+                                    <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1521,8 +1521,8 @@ Blog Area
                                         <a class="author" href="index.php?page=blog">July 09 2024</a>
                                         <a href="index.php?page=blog">9 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="index.php?page=blog-details">10 Reason why you should visit New Jersy</a></h3>
-                                    <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                                    <h3 class="box-title"><a href="index.php?page=blog_details">10 Reason why you should visit New Jersy</a></h3>
+                                    <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1538,8 +1538,8 @@ Blog Area
                                         <a class="author" href="index.php?page=blog">July 10 2024</a>
                                         <a href="index.php?page=blog">10 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="index.php?page=blog-details">The best time to visit japan & enjoy the cherry blossoms</a></h3>
-                                    <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                                    <h3 class="box-title"><a href="index.php?page=blog_details">The best time to visit japan & enjoy the cherry blossoms</a></h3>
+                                    <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -1555,8 +1555,8 @@ Blog Area
                                         <a class="author" href="index.php?page=blog">July 12 2024</a>
                                         <a href="index.php?page=blog">11 min read</a>
                                     </div>
-                                    <h3 class="box-title"><a href="index.php?page=blog-details">The 7 amazing destinations for adventure seekers</a></h3>
-                                    <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                                    <h3 class="box-title"><a href="index.php?page=blog_details">The 7 amazing destinations for adventure seekers</a></h3>
+                                    <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>

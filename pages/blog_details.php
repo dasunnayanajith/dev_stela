@@ -27,7 +27,7 @@
                                 <a class="author" href="index.php?page=blog"><i class="fa-light fa-user"></i>by David Smith</a>
                                 <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>05 May,
                                     2024</a>
-                                <a href="index.php?page=blog-details"><img src="assets/img/icon/map.svg" alt="">Sea Beach</a>
+                                <a href="index.php?page=blog_details"><img src="assets/img/icon/map.svg" alt="">Sea Beach</a>
                             </div>
                             <h2 class="blog-title">Relar Residence promotes sustainable transportation options, with dedicated spaces.</h2>
                             <p class="blog-text mb-30">Welcome to Realar Residence, where sustainability meets comfort in every corner. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.</p>
@@ -95,7 +95,7 @@
                                         <p class="text">Credibly pontificate transparent quality vectors with quality mindshare. Efficiently
                                             architect worldwide strategic theme areas after user.</p>
                                         <div class="reply_and_edit">
-                                            <a href="index.php?page=blog-details" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
+                                            <a href="index.php?page=blog_details" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@
                                                 <p class="text">It is different from airport transfer or port transfer, which are services
                                                     that pick you up</p>
                                                 <div class="reply_and_edit">
-                                                    <a href="index.php?page=blog-details" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
+                                                    <a href="index.php?page=blog_details" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@
                                         <p class="text">Credibly pontificate transparent quality vectors with quality mindshare. Efficiently
                                             architect worldwide strategic theme areas after user.</p>
                                         <div class="reply_and_edit">
-                                            <a href="index.php?page=blog-details" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
+                                            <a href="index.php?page=blog_details" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -213,10 +213,10 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Exploring The Green Spaces Of the island maldives</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Exploring The Green Spaces Of the island maldives</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>22/6/ 2024</a>
                                         </div>
@@ -224,10 +224,10 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Harmony With Nature Of Belgium Tour and travle</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Harmony With Nature Of Belgium Tour and travle</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>25/6/ 2024</a>
                                         </div>
@@ -236,10 +236,10 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Exploring The Green Spaces Of Realar Residence</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Exploring The Green Spaces Of Realar Residence</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>27/6/ 2024</a>
                                         </div>

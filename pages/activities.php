@@ -26,18 +26,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_1.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Paragliding</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Paragliding</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -49,18 +49,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_2.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Coastal Adventure </a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Coastal Adventure </a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -72,18 +72,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_3.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Departure</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Departure</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -95,18 +95,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_4.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Cultural Immersion</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Cultural Immersion</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,18 +118,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_5.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Mountain Campaign</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Mountain Campaign</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,18 +141,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_6.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Lake Fishing </a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Lake Fishing </a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -164,18 +164,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_7.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">Cycling</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">Cycling</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>
@@ -187,18 +187,18 @@ Product Area
                                     <img src="assets/img/tour/tour_5_8.jpg" alt="image">
                                 </div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="index.php?page=activities-details">hammock on the beach</a></h3>
+                                    <h3 class="box-title"><a href="index.php?page=activities_details">hammock on the beach</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
                                                 <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
                                                 Rating)</span></div>
-                                        <a href="index.php?page=activities-details" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=activities_details" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
                                         <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                        <a href="index.php?page=activities-details" class="th-btn style4">Detail View</a>
+                                        <a href="index.php?page=activities_details" class="th-btn style4">Detail View</a>
                                     </div>
                                 </div>
                             </div>

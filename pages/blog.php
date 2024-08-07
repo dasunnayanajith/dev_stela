@@ -20,33 +20,33 @@ Blog Area
                 <div class="col-xxl-8 col-lg-7">
                     <div class="th-blog blog-single has-post-thumbnail">
                         <div class="blog-img">
-                            <a href="index.php?page=blog-details"><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"></a>
+                            <a href="index.php?page=blog_details"><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="index.php?page=blog"><i class="fa-light fa-user"></i>by David Smith</a>
                                 <a href="index.php?page=blog"><i class="fa-solid fa-calendar-days"></i>05 May,
                                     2024</a>
-                                <a href="index.php?page=blog-details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
+                                <a href="index.php?page=blog_details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
                             </div>
-                            <h2 class="blog-title"><a href="index.php?page=blog-details">Living sustainability: A day in the life at
+                            <h2 class="blog-title"><a href="index.php?page=blog_details">Living sustainability: A day in the life at
                                     realar residence</a>
                             </h2>
                             <p class="blog-text">Uniquely pursue emerging experiences before liemerging content. Efficiently
                                 underwhelm customer directed total linkage after B2C synergy. Dynamically simplify superior
                                 human capital whereas efficient infrastructures generate business web-readiness after
                                 wireless outsourcing.</p>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                     <div class="th-blog blog-single has-post-thumbnail">
                         <div class="blog-img th-slider" data-slider-options='{"effect":"fade"}'>
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="index.php?page=blog-details"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a>
+                                    <a href="index.php?page=blog_details"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="index.php?page=blog-details"><img src="assets/img/blog/blog-s-1-4.jpg" alt="Blog Image"></a>
+                                    <a href="index.php?page=blog_details"><img src="assets/img/blog/blog-s-1-4.jpg" alt="Blog Image"></a>
                                 </div>
                             </div>
                             <button class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
@@ -57,16 +57,16 @@ Blog Area
                                 <a class="author" href="index.php?page=blog"><i class="fa-light fa-user"></i>by David Smith</a>
                                 <a href="index.php?page=blog"><i class="fa-solid fa-calendar-days"></i>05 May,
                                     2024</a>
-                                <a href="index.php?page=blog-details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
+                                <a href="index.php?page=blog_details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
                             </div>
-                            <h2 class="blog-title"><a href="index.php?page=blog-details">Exploring The Green Spaces Of Realar
+                            <h2 class="blog-title"><a href="index.php?page=blog_details">Exploring The Green Spaces Of Realar
                                     Residence Harmony with Nature</a>
                             </h2>
                             <p class="blog-text">Uniquely pursue emerging experiences before liemerging content. Efficiently
                                 underwhelm customer directed total linkage after B2C synergy. Dynamically simplify superior
                                 human capital whereas efficient infrastructures generate business web-readiness after
                                 wireless outsourcing.</p>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More=</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More=</a>
                         </div>
                     </div>
                     <div class="th-blog blog-single has-post-thumbnail">
@@ -75,17 +75,17 @@ Blog Area
                                 <a class="author" href="index.php?page=blog"><i class="fa-light fa-user"></i>by David Smith</a>
                                 <a href="index.php?page=blog"><i class="fa-solid fa-calendar-days"></i>05 May,
                                     2024</a>
-                                <a href="index.php?page=blog-details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
+                                <a href="index.php?page=blog_details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
                             </div>
-                            <h2 class="blog-title"><a href="index.php?page=blog-details">Enrich Your Mind Envision Your Future Education for Success</a>
+                            <h2 class="blog-title"><a href="index.php?page=blog_details">Enrich Your Mind Envision Your Future Education for Success</a>
                             </h2>
                             <p class="blog-text">Uniquely pursue emerging experiences before liemerging content. Efficiently underwhelm customer directed total linkage after B2C synergy. Dynamically simplify superior human capital whereas efficient infrastructures generate business web-readiness after wireless outsourcing.</p>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                     <div class="th-blog blog-single has-post-thumbnail">
                         <div class="blog-img" data-overlay="bg-title" data-opacity="5">
-                            <a href="index.php?page=blog-details"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a>
+                            <a href="index.php?page=blog_details"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image"></a>
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>
                         </div>
                         <div class="blog-content">
@@ -93,12 +93,12 @@ Blog Area
                                 <a class="author" href="index.php?page=blog"><i class="fa-light fa-user"></i>by David Smith</a>
                                 <a href="index.php?page=blog"><i class="fa-solid fa-calendar-days"></i>05 May,
                                     2024</a>
-                                <a href="index.php?page=blog-details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
+                                <a href="index.php?page=blog_details"><img src="assets/img/icon/map.svg" alt="">Tour Guide</a>
                             </div>
-                            <h2 class="blog-title"><a href="index.php?page=blog-details">University class starting soon while the lovely valley team work</a>
+                            <h2 class="blog-title"><a href="index.php?page=blog_details">University class starting soon while the lovely valley team work</a>
                             </h2>
                             <p class="blog-text">Uniquely pursue emerging experiences before liemerging content. Efficiently underwhelm customer directed total linkage after B2C synergy. Dynamically simplify superior human capital whereas efficient infrastructures generate business web-readiness after wireless outsourcing.</p>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
 
@@ -155,10 +155,10 @@ Blog Area
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Exploring The Green Spaces Of the island maldives</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Exploring The Green Spaces Of the island maldives</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>22/6/ 2024</a>
                                         </div>
@@ -166,10 +166,10 @@ Blog Area
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Harmony With Nature Of Belgium Tour and travle</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Harmony With Nature Of Belgium Tour and travle</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>25/6/ 2024</a>
                                         </div>
@@ -178,10 +178,10 @@ Blog Area
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Exploring The Green Spaces Of Realar Residence</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Exploring The Green Spaces Of Realar Residence</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>27/6/ 2024</a>
                                         </div>
