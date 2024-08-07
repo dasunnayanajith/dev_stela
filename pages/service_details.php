@@ -269,10 +269,10 @@ tour Area
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Exploring The Green Spaces Of the island maldives</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Exploring The Green Spaces Of the island maldives</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>22/6/ 2024</a>
                                         </div>
@@ -280,10 +280,10 @@ tour Area
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Harmony With Nature Of Belgium Tour and travle</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Harmony With Nature Of Belgium Tour and travle</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>25/6/ 2024</a>
                                         </div>
@@ -292,10 +292,10 @@ tour Area
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="index.php?page=blog-details"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                                        <a href="index.php?page=blog_details"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog-details">Exploring The Green Spaces Of Realar Residence</a></h4>
+                                        <h4 class="post-title"><a class="text-inherit" href="index.php?page=blog_details">Exploring The Green Spaces Of Realar Residence</a></h4>
                                         <div class="recent-post-meta">
                                             <a href="index.php?page=blog"><i class="fa-regular fa-calendar"></i>27/6/ 2024</a>
                                         </div>

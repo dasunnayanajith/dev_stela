@@ -1872,9 +1872,9 @@ Blog Area
                                 <a class="author" href="index.php?page=blog">July 05, 2024</a>
                                 <a href="index.php?page=blog">6 min read</a>
                             </div>
-                            <h3 class="box-title"><a href="index.php?page=blog-details">Travel agency for those who want to explore
+                            <h3 class="box-title"><a href="index.php?page=blog_details">Travel agency for those who want to explore
                                     the world and try to make adventure</a></h3>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -1888,10 +1888,10 @@ Blog Area
                                 <a class="author" href="index.php?page=blog">July 07, 2024</a>
                                 <a href="index.php?page=blog">7 min read</a>
                             </div>
-                            <h3 class="box-title"><a href="index.php?page=blog-details">The best time to visit japan & enjoy the
+                            <h3 class="box-title"><a href="index.php?page=blog_details">The best time to visit japan & enjoy the
                                     cherry
                                     blossoms</a></h3>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                     <div class="blog-grid th-ani style2 mt-24">
@@ -1903,9 +1903,9 @@ Blog Area
                                 <a class="author" href="index.php?page=blog">July 10, 2024</a>
                                 <a href="index.php?page=blog">8 min read</a>
                             </div>
-                            <h3 class="box-title"><a href="index.php?page=blog-details">Hiden history of Japan in the world and try to
+                            <h3 class="box-title"><a href="index.php?page=blog_details">Hiden history of Japan in the world and try to
                                     make adventure</a></h3>
-                            <a href="index.php?page=blog-details" class="th-btn style4 th-icon">Read More</a>
+                            <a href="index.php?page=blog_details" class="th-btn style4 th-icon">Read More</a>
                         </div>
                     </div>
                 </div>
