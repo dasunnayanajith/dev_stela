@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tourm - Travel & Tour Booking Agency HTML Template - Home Travel</title>
+    <title>Tourm - Travel & Tour Booking Agency HTML Template - Home Agency</title>
     <meta name="author" content="Tourm">
     <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template ">
     <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template ">
@@ -87,18 +87,15 @@
         <div id="loader" class="th-preloader">
             <div class="animation-preloader">
                 <div class="txt-loading">
-                    <span preloader-text="S" class="characters">S </span>
-
                     <span preloader-text="T" class="characters">T </span>
 
-                    <span preloader-text="E" class="characters">E </span>
+                    <span preloader-text="O" class="characters">O </span>
 
-                    <span preloader-text="L" class="characters">L </span>
+                    <span preloader-text="U" class="characters">U </span>
 
-                    <span preloader-text="A" class="characters">A </span>
                     <span preloader-text="R" class="characters">R </span>
-                    <span preloader-text="A" class="characters">A </span>
-                    <span preloader-text="N" class="characters">N </span>
+
+                    <span preloader-text="M" class="characters">M </span>
                 </div>
             </div>
         </div>
@@ -112,7 +109,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.php?page=home-travel"><img src="assets/img/logo2.svg" alt="Tourm"></a>
+                        <a href="index.php?page=home_travel"><img src="assets/img/logo2.svg" alt="Tourm"></a>
                     </div>
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                     <div class="th-social">
@@ -195,16 +192,16 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.php?page=home-travel"><img src="assets/img/logo2.svg" alt="Tourm"></a>
+                <a href="index.php?page=home_travel"><img src="assets/img/logo2.svg" alt="Tourm"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a class="active" href="index.php?page=home-travel">Home</a>
+                        <a class="active" href="index.php?page=home_travel">Home</a>
                         <ul class="sub-menu">
-                            <li><a href="index.php?page=home-travel">Home Travel</a></li>
+                            <li><a href="index.php?page=home_travel">Home Travel</a></li>
                             <li><a href="index.php?page=home-tour">Home Tour</a></li>
-                            <li><a href="index.php?page=home_agency">Home Agency</a></li>
+                            <li><a href="index.php?page=home-agency">Home Agency</a></li>
 
                         </ul>
                     </li>
@@ -271,65 +268,21 @@
     </div><!--==============================
 	Header Area
 ==============================-->
-    <header class="th-header header-layout1">
-        <div class="header-top">
-            <div class="container th-container">
-                <div class="row justify-content-center justify-content-xl-between align-items-center">
-                    <div class="col-auto d-none d-md-block">
-                        <div class="header-links">
-                            <ul>
-                                <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular  fa-location-dot"></i>
-                                    <span>45 New Eskaton Road, Austria</span>
-                                </li>
-                                <li class="d-none d-xl-inline-block"><i class="fa-regular fa-clock"></i>
-                                    <span>Sun to Friday: 8.00 am - 7.00 pm</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-right">
-                            <div class="currency-menu">
-                                <img src="assets/img/icon/dollar.svg" alt="">
-                                <select class="form-select nice-select">
-                                    <option selected="">USD</option>
-                                    <option>CNY</option>
-                                    <option>EUR</option>
-                                    <option>AUD</option>
-                                </select>
-                            </div>
-                            <div class="header-links">
-                                <ul>
-                                    <li class="d-none d-md-inline-block"><a href="index.php?page=faq">FAQ</a></li>
-                                    <li class="d-none d-md-inline-block"><a href="index.php?page=contact">Support</a></li>
-                                    <li><a href="#login-form" class="popup-content">Sign In / Register<i class="fa-regular fa-user"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <header class="th-header header-layout3 header-absolute">
         <div class="sticky-wrapper">
             <!-- Main Menu Area -->
             <div class="menu-area">
-                <div class="container th-container">
+                <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.php?page=home-travel"><img src="assets/img/logo.svg" alt="Tourm"></a>
-                            </div>
-                        </div>
-                        <div class="col-auto me-xl-auto">
-                            <nav class="main-menu d-none d-xl-inline-block">
+                            <nav class="main-menu d-none d-xl-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a class="active" href="index.php?page=home-travel">Home</a>
+                                        <a class="active" href="index.php?page=home_travel">Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.php?page=home-travel">Home Travel</a></li>
+                                            <li><a href="index.php?page=home_travel">Home Travel</a></li>
                                             <li><a href="index.php?page=home-tour">Home Tour</a></li>
-                                            <li><a href="index.php?page=home_agency">Home Agency</a></li>
+                                            <li><a href="index.php?page=home-agency">Home Agency</a></li>
 
                                         </ul>
                                     </li>
@@ -348,6 +301,19 @@
                                             <li><a href="index.php?page=service_details">Service Details</a></li>
                                         </ul>
                                     </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="index.php?page=index">
+                                    <img src="assets/img/logo-white2.svg" alt="Tourm">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <nav class="main-menu d-none d-xl-block">
+                                <ul>
                                     <li class="menu-item-has-children">
                                         <a href="#">Activities</a>
                                         <ul class="sub-menu">
@@ -394,18 +360,11 @@
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="far fa-bars"></i></button>
                         </div>
-                        <div class="col-auto d-none d-xl-block">
-                            <div class="header-button">
-                                <a href="index.php?page=contact" class="th-btn style3 th-icon">Book Now</a>
-
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="logo-bg" data-mask-src="assets/img/logo_bg_mask.png"></div>
+                <div class="header-right-button">
+                    <a href="#" class="simple-btn sideMenuToggler"><img src="assets/img/icon/menu.svg" alt=""></a>
+                </div>
             </div>
         </div>
     </header>
-    <!--==============================
-Hero Area
-==============================-->
