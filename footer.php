@@ -1,16 +1,17 @@
-<footer class="footer-wrapper footer-layout1">
+<footer class="footer-wrapper bg-title footer-layout2">
         <div class="widget-area">
             <div class="container">
                 <div class="newsletter-area">
                     <div class="newsletter-top">
                         <div class="row gy-4 align-items-center">
                             <div class="col-lg-5">
-                                <h2 class="newsletter-title text-capitalize mb-0">get updated the latest newsletter</h2>
+                                <h2 class="newsletter-title text-white text-capitalize mb-0">get updated the latest
+                                    newsletter</h2>
                             </div>
                             <div class="col-lg-7">
-                                <form class="newsletter-form">
+                                <form class="newsletter-form style2">
                                     <input class="form-control " type="email" placeholder="Enter Email" required="">
-                                    <button type="submit" class="th-btn style3">Subscribe Now <img src="assets/img/icon/plane.svg" alt=""></button>
+                                    <button type="submit" class="th-btn style1">Subscribe Now <img src="assets/img/icon/plane2.svg" alt=""></button>
                                 </form>
                             </div>
                         </div>
@@ -21,7 +22,7 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="pages/home-travel.php"><img src="assets/img/logo3.svg" alt="Tourm"></a>
+                                    <a href="pages/home-travel.php"><img src="assets/img/logo-white.svg" alt="Tourm"></a>
                                 </div>
                                 <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                                 <div class="th-social">
@@ -51,7 +52,7 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">Address</h3>
+                            <h3 class="widget_title">Get In Touch</h3>
                             <div class="th-widget-contact">
                                 <div class="info-box_text">
                                     <div class="icon">
@@ -114,7 +115,7 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap" data-bg-src="assets/img/bg/copyright_bg_1.jpg">
+        <div class="copyright-wrap">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
@@ -130,7 +131,9 @@
 
             </div>
         </div>
-
+        <div class="shape-mockup movingX d-none d-xxl-block" data-top="24%" data-left="5%">
+            <img src="assets/img/shape/shape_8.png" alt="shape">
+        </div>
     </footer>
 
     <!--********************************
