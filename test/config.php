@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "tour_packages";
+$dbname = "stelaran_tour_packages";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
