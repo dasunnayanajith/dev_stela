@@ -112,7 +112,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.php?page=home-travel"><img src="assets/img/logo2.svg" alt="Tourm"></a>
+                        <a href="index.php"><img src="assets/img/logo2.svg" alt="Tourm"></a>
                     </div>
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                     <div class="th-social">
@@ -195,41 +195,14 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.php?page=home-travel"><img src="assets/img/logo2.svg" alt="Tourm"></a>
+                <a href="index.php"><img src="assets/img/logo2.svg" alt="Tourm"></a>
             </div>
-            <div class="th-mobile-menu">
+            <div class="th-mobile-menu"> 
                 <ul>
-                    <li class="menu-item-has-children">
-                        <a class="active" href="index.php?page=home-travel">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.php?page=home-travel">Home Travel</a></li>
-                            <li><a href="index.php?page=home-tour">Home Tour</a></li>
-                            <li><a href="index.php?page=home_agency">Home Agency</a></li>
-
-                        </ul>
-                    </li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="index.php?page=about">About Us</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Destination</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.php?page=destination">Destination</a></li>
-                            <li><a href="index.php?page=destination_details">Destination Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Service</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.php?page=service">Services</a></li>
-                            <li><a href="index.php?page=service_details">Service Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Activities</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.php?page=activities">activities</a></li>
-                            <li><a href="index.php?page=activities_details">activities Details</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="index.php?page=tour">Our Tour</a></li>
+                    <li><a href="index.php?page=service">Services</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Pages</a>
                         <ul class="sub-menu">
@@ -255,16 +228,9 @@
                         </ul>
 
                     </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.php?page=blog">Blog</a></li>
-                            <li><a href="index.php?page=blog_details">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="index.php?page=contact">Contact us</a>
-                    </li>
+                    <li><a href="index.php?page=gallery">Gallery</a></li>
+                    <li><a href="index.php?page=blog">Blog</a></li>
+                    <li><a href="index.php?page=contact">Contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -318,43 +284,16 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.php?page=home-travel"><img src="assets/img/logo.svg" alt="Tourm"></a>
+                                <a href="index.php"><img src="assets/img/logo.svg" alt="Tourm"></a>
                             </div>
                         </div>
                         <div class="col-auto me-xl-auto">
                             <nav class="main-menu d-none d-xl-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children">
-                                        <a class="active" href="index.php?page=home-travel">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php?page=home-travel">Home Travel</a></li>
-                                            <li><a href="index.php?page=home-tour">Home Tour</a></li>
-                                            <li><a href="index.php?page=home_agency">Home Agency</a></li>
-
-                                        </ul>
-                                    </li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="index.php?page=about">About Us</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Destination</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php?page=destination">Destination</a></li>
-                                            <li><a href="index.php?page=destination_details">Destination Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Service</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php?page=service">Services</a></li>
-                                            <li><a href="index.php?page=service_details">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Activities</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php?page=activities">activities</a></li>
-                                            <li><a href="index.php?page=activities_details">activities Details</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="index.php?page=tour">Our Tour</a></li>
+                                    <li><a href="index.php?page=service">Services</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Pages</a>
                                         <ul class="sub-menu">
@@ -380,16 +319,9 @@
                                         </ul>
 
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php?page=blog">Blog</a></li>
-                                            <li><a href="index.php?page=blog_details">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index.php?page=contact">Contact us</a>
-                                    </li>
+                                    <li><a href="index.php?page=gallery">Gallery</a></li>
+                                    <li><a href="index.php?page=blog">Blog</a></li>
+                                    <li><a href="index.php?page=contact">Contact us</a></li>
                                 </ul>
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="far fa-bars"></i></button>

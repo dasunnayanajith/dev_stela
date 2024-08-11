@@ -15,6 +15,19 @@
 tour Area
 ==============================-->
     <section class="space">
+        <?php 
+        $pid=intval($_GET['pkgid']);
+        $sql = "SELECT * from tbltourpackages where PackageId=:pid";
+        $query = $dbh->prepare($sql);
+        $query -> bindParam(':pid', $pid, PDO::PARAM_STR);
+        $query->execute();
+        $results=$query->fetchAll(PDO::FETCH_OBJ);
+        $cnt=1;
+        if($query->rowCount() > 0)
+        {
+        foreach($results as $result)
+        {	?>
+
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-7">
@@ -98,22 +111,11 @@ tour Area
                                 <a class="page-tag" href="index.php?page=tour">Featured</a>
                                 <span class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span>4.8</span></span>
                             </div>
-                            <h2 class="box-title">Explore the Beauty of Maldives and enjoy</h2>
-                            <h4 class="tour-price"><span class="currency">$189,25</span>/Person</h4>
-                            <p class="box-text mb-30">voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                                modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Quis autem vel
-                                eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
-                                illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                            <p class="box-text mb-50"> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                                reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
-                                dolorem eum fugiat quo voluptas nulla pariatur</p>
+                            <h2 class="box-title"><?php echo htmlentities($result->PackageName);?></h2>
+                            <h4 class="tour-price"><span class="currency">$<?php echo htmlentities($result->PackagePrice);?></span>/Person</h4>
+                            <p class="box-text mb-30"><?php echo htmlentities($result->PackageDetails);?></p>
                             <h2 class="box-title">Highlights</h2>
-                            <p class="box-text mb-30">voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                Dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+                            <p class="box-text mb-30"><?php echo htmlentities($result->PackageFetures);?></p>
                             <div class="checklist mb-50">
                                 <ul>
                                     <li>Visit most popular location of Maldives</li>
@@ -439,6 +441,7 @@ tour Area
                     </div>
                 </div>
             </div>
+            <?php }} ?>
             <div class="location-map">
                 <h3 class="page-title mt-45 mb-30">Location</h3>
                 <div class="contact-map style3">
