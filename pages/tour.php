@@ -93,30 +93,6 @@ Product Area
                                 
                                 <?php }} ?>
 
-                                <div class="col-md-6">
-                                    <div class="tour-box th-ani">
-                                        <div class="tour-box_img global-img">
-                                            <img src="assets/img/tour/tour_4_2.jpg" alt="image">
-                                        </div>
-                                        <div class="tour-content">
-                                            <h3 class="box-title"><a href="index.php?page=tour_guider_details">Dubai Tour Package</a></h3>
-                                            <div class="tour-rating">
-                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
-                                                        <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
-                                                        Rating)</span></div>
-                                                <a href="index.php?page=tour_guider_details" class="woocommerce-review-link">(<span class="count">4.8</span>
-                                                    Rating)</a>
-                                            </div>
-                                            <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
-                                            <div class="tour-action">
-                                                <span><i class="fa-light fa-clock"></i>7 Days</span>
-                                                <a href="index.php?page=tour_guider_details" class="th-btn style4">Detail View</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
                                 
                             </div>
                         </div>

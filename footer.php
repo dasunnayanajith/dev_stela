@@ -59,8 +59,8 @@
                                         <img src="assets/img/icon/phone.svg" alt="img">
                                     </div>
                                     <div class="details">
-                                        <p><a href="tel:+01234567890" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
+                                        <p><a href="tel:+01234567890" class="info-box_link"><?php echo $phoneNumber1 ;?></a></p>
+                                        <p><a href="tel:+09876543210" class="info-box_link"><?php echo $phoneNumber2 ;?></a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
@@ -68,14 +68,14 @@
                                         <img src="assets/img/icon/envelope.svg" alt="img">
                                     </div>
                                     <div class="details">
-                                        <p><a href="mailto:mailinfo00@tourm.com" class="info-box_link">mailinfo00@tourm.com</a></p>
-                                        <p><a href="mailto:support24@tourm.com" class="info-box_link">support24@tourm.com</a></p>
+                                        <p><a href="mailto:mailinfo00@tourm.com" class="info-box_link"><?php echo $email1 ;?></a></p>
+                                        <p><a href="mailto:support24@tourm.com" class="info-box_link"><?php echo $email2 ;?></a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
                                     <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
                                     <div class="details">
-                                        <p>789 Inner Lane, Holy park, California, USA</p>
+                                        <p><?php echo $address ;?></p>
                                     </div>
                                 </div>
                             </div>

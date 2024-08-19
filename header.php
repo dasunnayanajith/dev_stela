@@ -1,5 +1,20 @@
+<?php
+// Assigning phone number to a variable
+$phoneNumber1 = "+94766610222";
+$phoneNumber2 = "+94703660222";
+$email1 = "info@stelaranholidays.com";
+$email2 = "stelaranholidays@gmail.com";
+$address = " 54/9/1, 3rd Lane, Hansagiri Rd, Gampaha, Sri Lanka";
+$companyshort = "Stelaran Holidays"
+
+// Example usage
+//echo "Email 2: " . $email2 . "<br>";
+?>
+
+
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 
 <head>
     <meta charset="utf-8">
@@ -55,6 +70,44 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .person-selector-input {
+            padding: 10px;
+            font-size: 14px;
+            width: 220px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .person-selector-popup {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .person-selector-popup.active {
+            display: block;
+        }
+        .counter-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .counter-container label {
+            font-size: 14px;
+        }
+        .counter-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .counter-buttons button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
 
 </head>
 
@@ -203,6 +256,7 @@
                     <li><a href="index.php?page=about">About Us</a></li>
                     <li><a href="index.php?page=tour">Our Tour</a></li>
                     <li><a href="index.php?page=service">Services</a></li>
+                    <li><a href="index.php?page=tailormade_tours">Tailor-Made Tours</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Pages</a>
                         <ul class="sub-menu">
@@ -245,10 +299,10 @@
                         <div class="header-links">
                             <ul>
                                 <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular  fa-location-dot"></i>
-                                    <span>45 New Eskaton Road, Austria</span>
+                                    <span><?php echo $address ;?></span>
                                 </li>
                                 <li class="d-none d-xl-inline-block"><i class="fa-regular fa-clock"></i>
-                                    <span>Sun to Friday: 8.00 am - 7.00 pm</span>
+                                    <span>Monday to Friday: 8.00 am - 5.00 pm</span>
                                 </li>
                             </ul>
                         </div>
@@ -294,6 +348,7 @@
                                     <li><a href="index.php?page=about">About Us</a></li>
                                     <li><a href="index.php?page=tour">Our Tour</a></li>
                                     <li><a href="index.php?page=service">Services</a></li>
+                                    <li><a href="index.php?page=tailormade_tours">Tailor-Made Tours</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Pages</a>
                                         <ul class="sub-menu">

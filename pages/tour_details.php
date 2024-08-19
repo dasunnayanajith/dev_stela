@@ -180,110 +180,110 @@ tour Area
                                     </ul>
                                 </div>
                             </div>
+
+        <!--==================Date====================== -->
+
+
+
+
                             <h3 class="page-title mt-50 mb-0">Tour Plan</h3>
                             <ul class="nav nav-tabs tour-tab mt-10" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="day-tab1" data-bs-toggle="tab" data-bs-target="#day-tab1-pane" type="button" role="tab" aria-controls="day-tab1-pane" aria-selected="true">Day 01</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="day-tab2" data-bs-toggle="tab" data-bs-target="#day-tab2-pane" type="button" role="tab" aria-controls="day-tab2-pane" aria-selected="false">Day 02</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="day-tab3" data-bs-toggle="tab" data-bs-target="#day-tab3-pane" type="button" role="tab" aria-controls="day-tab3-pane" aria-selected="false">Day 03</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="day-tab4" data-bs-toggle="tab" data-bs-target="#day-tab4-pane" type="button" role="tab" aria-controls="day-tab4-pane" aria-selected="false">Day 04 </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="day-tab5" data-bs-toggle="tab" data-bs-target="#day-tab5-pane" type="button" role="tab" aria-controls="day-tab5-pane" aria-selected="false">Day 05 </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="day-tab6" data-bs-toggle="tab" data-bs-target="#day-tab6-pane" type="button" role="tab" aria-controls="day-tab6-pane" aria-selected="false">Day 06 </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="day-tab7" data-bs-toggle="tab" data-bs-target="#day-tab7-pane" type="button" role="tab" aria-controls="day-tab7-pane" aria-selected="false">Day 07 </button>
-                                </li>
+                                
+<?php 
+// Extract the 'pkgid' from the URL
+$pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
+
+if ($pkgid !== null) {
+    $sql = "SELECT DISTINCT DateId FROM tbltouractivities WHERE PackageId = :pkgid";
+    $query = $dbh->prepare($sql);
+    $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
+    $query->execute();
+    $results = $query->fetchAll(PDO::FETCH_OBJ);
+
+    // Check if any records were found
+    if ($query->rowCount() > 0) {
+        // Loop through and display the records
+        foreach ($results as $result) {
+            // Determine the label to display for the day
+            $dayLabel = ($result->DateId >= 1 && $result->DateId <= 9) ? 'Day 0' . $result->DateId : 'Day ' . $result->DateId;
+            
+            if ($result->DateId == 1) {
+                // Special case for DateId = 1
+                ?>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="day-tab1" data-bs-toggle="tab" data-bs-target="#day-tab1-pane" type="button" role="tab" aria-controls="day-tab1-pane" aria-selected="true"><?php echo htmlspecialchars($dayLabel); ?></button>
+                </li>
+                <?php
+            } else {
+                // Default case for other DateIds
+                ?>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="day-tab<?php echo htmlspecialchars($result->DateId);?>" data-bs-toggle="tab" data-bs-target="#day-tab<?php echo htmlspecialchars($result->DateId);?>-pane" type="button" role="tab" aria-controls="day-tab<?php echo htmlspecialchars($result->DateId);?>-pane" aria-selected="false"><?php echo htmlspecialchars($dayLabel); ?></button>
+                </li>
+                <?php
+            }
+        }
+    } else {
+        echo "No records found for Package ID: " . htmlspecialchars($pkgid);
+    }
+} else {
+    echo "Package ID not found in the URL.";
+}
+?>
+
+
+                                
                             </ul>
                             <div class="tab-content">
-                                <div class="tab-pane fade show active" id="day-tab1-pane" role="tabpanel" aria-labelledby="day-tab1" tabindex="0">
-                                    <div class="tour-grid-plan">
-                                        <div class="checklist">
-                                            <ul>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                                <li>United commitment toour excellence patent protection.</li>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="day-tab2-pane" role="tabpanel" aria-labelledby="day-tab2" tabindex="0">
-                                    <div class="tour-grid-plan">
-                                        <div class="checklist">
-                                            <ul>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                                <li>United commitment toour excellence patent protection.</li>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="day-tab3-pane" role="tabpanel" aria-labelledby="day-tab3" tabindex="0">
-                                    <div class="tour-grid-plan">
-                                        <div class="checklist">
-                                            <ul>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                                <li>United commitment toour excellence patent protection.</li>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="day-tab5-pane" role="tabpanel" aria-labelledby="day-tab5" tabindex="0">
-                                    <div class="tour-grid-plan">
-                                        <div class="checklist">
-                                            <ul>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                                <li>United commitment toour excellence patent protection.</li>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="day-tab6-pane" role="tabpanel" aria-labelledby="day-tab6" tabindex="0">
-                                    <div class="tour-grid-plan">
-                                        <div class="checklist">
-                                            <ul>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                                <li>United commitment toour excellence patent protection.</li>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="day-tab7-pane" role="tabpanel" aria-labelledby="day-tab7" tabindex="0">
-                                    <div class="tour-grid-plan">
-                                        <div class="checklist">
-                                            <ul>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                                <li>United commitment toour excellence patent protection.</li>
-                                                <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                                <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+
+                            <?php 
+// Extract the 'pkgid' from the URL
+$pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
+
+if ($pkgid !== null) {
+    $sql = "SELECT DateId, ActivityName FROM tbltouractivities WHERE PackageId = :pkgid ORDER BY DateId";
+    $query = $dbh->prepare($sql);
+    $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
+    $query->execute();
+    $results = $query->fetchAll(PDO::FETCH_OBJ);
+
+    // Organize the results by DateId
+    $activitiesByDay = [];
+    foreach ($results as $result) {
+        $activitiesByDay[$result->DateId][] = $result->ActivityName;
+    }
+
+    // Loop through each DateId and display the records
+    foreach ($activitiesByDay as $dateId => $activities) {
+        // Determine the label to display for the day
+        $dayLabel = ($dateId >= 1 && $dateId <= 9) ? 'Day 0' . $dateId : 'Day ' . $dateId;
+
+        // Check if it's the first day (DateId = 1)
+        $activeClass = ($dateId == 1) ? 'show active' : 'show';
+        ?>
+        <div class="tab-pane fade <?php echo $activeClass; ?>" id="day-tab<?php echo htmlspecialchars($dateId); ?>-pane" role="tabpanel" aria-labelledby="day-tab<?php echo htmlspecialchars($dateId); ?>" tabindex="0">
+            <div class="tour-grid-plan">
+                <div class="checklist">
+                    <ul>
+                        <?php foreach ($activities as $activityName) { ?>
+                            <li><?php echo htmlspecialchars($activityName); ?></li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
+} else {
+    echo "Package ID not found in the URL.";
+}
+?>
+                        
+
+
+
                             </div>
+                <!--==================Date-END====================== -->
                         </div>
 
                     </div>
@@ -399,6 +399,40 @@ tour Area
             <div class="tour-gallery-wrapper">
                 <h3 class="page-title mt-50 mb-30">From our gallery</h3>
                 <div class="row gy-4 gallery-row filter-active">
+                    
+                <?php 
+// Extract the 'pkgid' from the URL
+$pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
+
+if ($pkgid !== null) {
+    $sql = "SELECT DISTINCT ActivityImage FROM tbltouractivities WHERE PackageId = :pkgid";
+    $query = $dbh->prepare($sql);
+    $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
+    $query->execute();
+    $results = $query->fetchAll(PDO::FETCH_OBJ);
+
+    // Check if any records were found
+    if ($query->rowCount() > 0) {
+        // Loop through and display the records
+        foreach ($results as $result) { ?>
+            <div class="col-md-6 col-xl-auto filter-item">
+                <div class="tour-gallery-card">
+                    <div class="gallery-img global-img">
+                        <img src="admin/pacakgeimages/95995.jpg" alt="gallery image">
+                        <a href="admin/pacakgeimages/95995.jpg" class="icon-btn popup-image"><i class="fal fa-magnifying-glass-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <?php 
+        }
+    } else {
+        echo "No records found for Package ID: " . htmlspecialchars($pkgid);
+    }
+} else {
+    echo "Package ID not found in the URL.";
+}
+?>
+
                     <div class="col-md-6 col-xl-auto filter-item">
                         <div class="tour-gallery-card">
                             <div class="gallery-img global-img">
@@ -434,14 +468,16 @@ tour Area
                     <div class="col-md-6 col-xl-auto filter-item">
                         <div class="tour-gallery-card">
                             <div class="gallery-img global-img">
-                                <img src="assets/img/gallery/gallery_5_5.jpg" alt="gallery image">
-                                <a href="assets/img/gallery/gallery_5_5.jpg" class="icon-btn popup-image"><i class="fal fa-magnifying-glass-plus"></i></a>
+                                <img src="admin/pacakgeimages/95995.jpg" alt="gallery image">
+                                <a href="admin/pacakgeimages/95995.jpg" class="icon-btn popup-image"><i class="fal fa-magnifying-glass-plus"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <?php }} ?>
+
+           
             <div class="location-map">
                 <h3 class="page-title mt-45 mb-30">Location</h3>
                 <div class="contact-map style3">
@@ -451,6 +487,7 @@ tour Area
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="shape-mockup about-shape movingX d-none d-xxl-block" data-bottom="40%" data-right="17%">
             <img src="assets/img/normal/about-slide-img.png" alt="shape">
