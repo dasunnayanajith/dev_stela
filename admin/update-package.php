@@ -163,9 +163,12 @@ foreach($results as $result)
 								</div>		
 								<?php }} ?>
 
-								<div class="row">
+		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<button type="submit" name="submit" class="btn-primary btn">Update</button>
+				<a href="manage_activities.php?pkgid=<?php echo $pid; ?>" class="btn btn-primary">Activities</a>
+				<a href="manage_highlights.php?pkgid=<?php echo $pid; ?>" class="btn btn-primary">Highlights</a>
+				<a href="package-images.php?pkgid=<?php echo $pid; ?>" class="btn btn-primary">Images</a>
 			</div>
 		</div>
 						

@@ -573,7 +573,7 @@ Product Area
                                 <div class="offer">
                                     <h6 class="box-title">Need Help? We Are Here To Help You</h6>
                                     <div class="banner-logo">
-                                        <img src="assets/img/logo2.svg" alt="Tourm">
+                                        <img src="assets/img/logo.png" alt="Tourm">
                                     </div>
                                     <div class="offer">
                                         <h6 class="offer-title">You Get Online support</h6>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 19, 2024 at 04:10 PM
+-- Generation Time: Nov 16, 2024 at 09:25 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -253,6 +253,30 @@ INSERT INTO `tbltourpackages` (`PackageId`, `PackageName`, `PackageType`, `Packa
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbltourpkghiglight`
+--
+
+CREATE TABLE `tbltourpkghiglight` (
+  `HighlightId` int(11) NOT NULL,
+  `PackageId` int(11) NOT NULL,
+  `HighlightItem` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tbltourpkghiglight`
+--
+
+INSERT INTO `tbltourpkghiglight` (`HighlightId`, `PackageId`, `HighlightItem`) VALUES
+(1, 1, 'Beautiful Beaches'),
+(2, 1, 'Sunset Cruise'),
+(3, 2, 'Historical Sites Tour'),
+(4, 2, 'Local Cuisine Experience'),
+(5, 3, 'Safari Adventure'),
+(6, 3, 'Wildlife Photography');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbltourpkgimages`
 --
 
@@ -264,6 +288,45 @@ CREATE TABLE `tbltourpkgimages` (
   `Creationdate` timestamp NULL DEFAULT current_timestamp(),
   `UpdationDate` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `tbltourpkgimages`
+--
+
+INSERT INTO `tbltourpkgimages` (`pkgimgId`, `PackageId`, `imgtype`, `PackageImage`, `Creationdate`, `UpdationDate`) VALUES
+(11, 1, 0, 'gallery_1_3.jpg', '2024-11-16 07:57:31', NULL),
+(12, 1, 0, 'gallery_1_3.jpg', '2024-11-16 07:58:27', NULL),
+(13, 1, 0, 'gallery_1_2.jpg', '2024-11-16 07:58:27', NULL),
+(14, 1, 0, 'gallery_1_1.jpg', '2024-11-16 07:58:27', NULL),
+(15, 1, 1, 'gallery_1_3.jpg', '2024-11-16 07:59:25', NULL),
+(16, 1, 1, 'gallery_1_2.jpg', '2024-11-16 07:59:25', NULL),
+(17, 1, 1, 'gallery_1_1.jpg', '2024-11-16 07:59:25', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbltourpkginexclude`
+--
+
+CREATE TABLE `tbltourpkginexclude` (
+  `PackageId` int(11) NOT NULL,
+  `Accommodation` tinyint(1) NOT NULL DEFAULT 0,
+  `Guide` tinyint(1) NOT NULL DEFAULT 0,
+  `Insurance` tinyint(1) NOT NULL DEFAULT 0,
+  `Meals` tinyint(1) NOT NULL DEFAULT 0,
+  `Transport` tinyint(1) NOT NULL DEFAULT 0,
+  `Flights` tinyint(1) NOT NULL DEFAULT 0,
+  `Safari Jeep` tinyint(1) NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tbltourpkginexclude`
+--
+
+INSERT INTO `tbltourpkginexclude` (`PackageId`, `Accommodation`, `Guide`, `Insurance`, `Meals`, `Transport`, `Flights`, `Safari Jeep`) VALUES
+(1, 1, 1, 0, 1, 1, 0, 0),
+(2, 0, 1, 1, 1, 0, 0, 1),
+(3, 1, 0, 0, 1, 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -345,10 +408,22 @@ ALTER TABLE `tbltourpackages`
   ADD PRIMARY KEY (`PackageId`);
 
 --
+-- Indexes for table `tbltourpkghiglight`
+--
+ALTER TABLE `tbltourpkghiglight`
+  ADD PRIMARY KEY (`HighlightId`);
+
+--
 -- Indexes for table `tbltourpkgimages`
 --
 ALTER TABLE `tbltourpkgimages`
   ADD PRIMARY KEY (`pkgimgId`);
+
+--
+-- Indexes for table `tbltourpkginexclude`
+--
+ALTER TABLE `tbltourpkginexclude`
+  ADD PRIMARY KEY (`PackageId`);
 
 --
 -- Indexes for table `tblusers`
@@ -411,10 +486,16 @@ ALTER TABLE `tbltourpackages`
   MODIFY `PackageId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
+-- AUTO_INCREMENT for table `tbltourpkghiglight`
+--
+ALTER TABLE `tbltourpkghiglight`
+  MODIFY `HighlightId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
 -- AUTO_INCREMENT for table `tbltourpkgimages`
 --
 ALTER TABLE `tbltourpkgimages`
-  MODIFY `pkgimgId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `pkgimgId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `tblusers`

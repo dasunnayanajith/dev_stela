@@ -10,22 +10,34 @@ else{
 if(isset($_POST['submit']))
 {
 $pname=$_POST['packagename'];
-$ptype=$_POST['packagetype'];	
-$plocation=$_POST['packagelocation'];
+$ptype=$_POST['packagetype'];
 $pprice=$_POST['packageprice'];	
 $pfeatures=$_POST['packagefeatures'];
 $pdetails=$_POST['packagedetails'];	
 $pimage=$_FILES["packageimage"]["name"];
+// New fields
+$prate=$_POST['packagerate'];
+$pgroupsize=$_POST['packagegroupsize'];
+$pagerange=$_POST['packageagerange'];
+$prating=$_POST['packagephysicalrating'];
+$planguage=$_POST['packagelanguage'];
+$ppickup=$_POST['packagepickup'];
 move_uploaded_file($_FILES["packageimage"]["tmp_name"],"pacakgeimages/".$_FILES["packageimage"]["name"]);
-$sql="INSERT INTO tbltourpackages(PackageName,PackageType,PackageLocation,PackagePrice,PackageFetures,PackageDetails,PackageImage) VALUES(:pname,:ptype,:plocation,:pprice,:pfeatures,:pdetails,:pimage)";
+$sql="INSERT INTO tbltourpackages(PackageName,PackageType,PackagePrice,PackageRate,PackageFetures,PackageDetails,PackageImage,PackageGroupSize,PackageAgeRange,PackagePhysicalRating,PackageLanguage,PackagePickup) VALUES(:pname,:ptype,:pprice,:prate,:pfeatures,:pdetails,:pimage,:pgroupsize,:pagerange,:prating,:planguage,:ppickup)";
 $query = $dbh->prepare($sql);
 $query->bindParam(':pname',$pname,PDO::PARAM_STR);
 $query->bindParam(':ptype',$ptype,PDO::PARAM_STR);
-$query->bindParam(':plocation',$plocation,PDO::PARAM_STR);
 $query->bindParam(':pprice',$pprice,PDO::PARAM_STR);
 $query->bindParam(':pfeatures',$pfeatures,PDO::PARAM_STR);
 $query->bindParam(':pdetails',$pdetails,PDO::PARAM_STR);
 $query->bindParam(':pimage',$pimage,PDO::PARAM_STR);
+// Bind new fields
+$query->bindParam(':prate',$prate,PDO::PARAM_STR);
+$query->bindParam(':pgroupsize',$pgroupsize,PDO::PARAM_STR);
+$query->bindParam(':pagerange',$pagerange,PDO::PARAM_STR);
+$query->bindParam(':prating',$prating,PDO::PARAM_STR);
+$query->bindParam(':planguage',$planguage,PDO::PARAM_STR);
+$query->bindParam(':ppickup',$ppickup,PDO::PARAM_STR);
 $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
@@ -113,9 +125,9 @@ $error="Something went wrong. Please try again";
 								</div>
 
 <div class="form-group">
-									<label for="focusedinput" class="col-sm-2 control-label">Package Location</label>
+									<label for="focusedinput" class="col-sm-2 control-label">Package Rate</label>
 									<div class="col-sm-8">
-										<input type="text" class="form-control1" name="packagelocation" id="packagelocation" placeholder=" Package Location" required>
+										<input type="text" class="form-control1" name="packagerate" id="packagerate" placeholder="Package Rate" required>
 									</div>
 								</div>
 
@@ -139,7 +151,44 @@ $error="Something went wrong. Please try again";
 									<div class="col-sm-8">
 										<textarea class="form-control" rows="5" cols="50" name="packagedetails" id="packagedetails" placeholder="Package Details" required></textarea> 
 									</div>
-								</div>															
+								</div>	
+
+
+<div class="form-group">
+    <label for="focusedinput" class="col-sm-2 control-label">Package Group Size</label>
+    <div class="col-sm-8">
+        <input type="text" class="form-control1" name="packagegroupsize" id="packagegroupsize" placeholder="Package Group Size" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="focusedinput" class="col-sm-2 control-label">Package Age Range</label>
+    <div class="col-sm-8">
+        <input type="text" class="form-control1" name="packageagerange" id="packageagerange" placeholder="Package Age Range" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="focusedinput" class="col-sm-2 control-label">Package Physical Rating</label>
+    <div class="col-sm-8">
+        <input type="text" class="form-control1" name="packagephysicalrating" id="packagephysicalrating" placeholder="Package Physical Rating" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="focusedinput" class="col-sm-2 control-label">Package Language</label>
+    <div class="col-sm-8">
+        <input type="text" class="form-control1" name="packagelanguage" id="packagelanguage" placeholder="Package Language" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="focusedinput" class="col-sm-2 control-label">Package Pickup</label>
+    <div class="col-sm-8">
+        <input type="text" class="form-control1" name="packagepickup" id="packagepickup" placeholder="Package Pickup" required>
+    </div>
+</div>
+														
 <div class="form-group">
 									<label for="focusedinput" class="col-sm-2 control-label">Package Image</label>
 									<div class="col-sm-8">

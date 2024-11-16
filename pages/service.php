@@ -437,6 +437,25 @@ Service Area
                                         </div>
                                     </div>
                                 </div>
+                                <div class="swiper-slide">
+                                    <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="assets/img/tour/tour_box_26.jpg" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title"><a>Safari Jeep Package </a></h3>
+                                            <div class="tour-rating">
+                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
+                                                        <strong class="rating">5.00</strong> out of 5 based on <span class="rating">3</span>(4.8
+                                                        Rating)</span></div>
+                                                <a class="woocommerce-review-link">(<span class="count">4.5</span>
+                                                    Rating)</a>
+                                            </div>
+                                            
+                                                <span>A thrilling wildlife adventure in Sri Lanka’s top national parks, offering close encounters with leopards, elephants, and many more.</span>
+                                        </div>
+                                    </div>
+                                </div>
 
 
 

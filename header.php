@@ -257,31 +257,6 @@ $companyshort = "Stelaran Holidays"
                     <li><a href="index.php?page=tour">Our Tour</a></li>
                     <li><a href="index.php?page=service">Services</a></li>
                     <li><a href="index.php?page=tailormade_tours">Tailor-Made Tours</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.php?page=shop">Shop</a></li>
-                                    <li><a href="index.php?page=shop_details">Shop Details</a></li>
-                                    <li><a href="index.php?page=cart">Cart Page</a></li>
-                                    <li><a href="index.php?page=checkout">Checkout</a></li>
-                                    <li><a href="index.php?page=wishlist">Wishlist</a></li>
-                                </ul>
-                            </li>
-
-                            <li><a href="index.php?page=gallery">Gallery</a></li>
-                            <li><a href="index.php?page=tour">Our Tour</a></li>
-                            <li><a href="index.php?page=tour_details">Tour Details</a></li>
-                            <li><a href="index.php?page=tour_guide">Tour Guider</a></li>
-                            <li><a href="index.php?page=tour_guider_details">Tour Guider Details</a></li>
-                            <li><a href="index.php?page=faq">Faq Page</a></li>
-                            <li><a href="index.php?page=price">Price Package</a></li>
-                            <li><a href="index.php?page=error">Error Page</a></li>
-                        </ul>
-
-                    </li>
                     <li><a href="index.php?page=gallery">Gallery</a></li>
                     <li><a href="index.php?page=blog">Blog</a></li>
                     <li><a href="index.php?page=contact">Contact us</a></li>
@@ -349,31 +324,6 @@ $companyshort = "Stelaran Holidays"
                                     <li><a href="index.php?page=tour">Our Tour</a></li>
                                     <li><a href="index.php?page=service">Services</a></li>
                                     <li><a href="index.php?page=tailormade_tours">Tailor-Made Tours</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.php?page=shop">Shop</a></li>
-                                                    <li><a href="index.php?page=shop_details">Shop Details</a></li>
-                                                    <li><a href="index.php?page=cart">Cart Page</a></li>
-                                                    <li><a href="index.php?page=checkout">Checkout</a></li>
-                                                    <li><a href="index.php?page=wishlist">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li><a href="index.php?page=gallery">Gallery</a></li>
-                                            <li><a href="index.php?page=tour">Our Tour</a></li>
-                                            <li><a href="index.php?page=tour_details">Tour Details</a></li>
-                                            <li><a href="index.php?page=tour_guide">Tour Guider</a></li>
-                                            <li><a href="index.php?page=tour_guider_details">Tour Guider Details</a></li>
-                                            <li><a href="index.php?page=faq">Faq Page</a></li>
-                                            <li><a href="index.php?page=price">Price Package</a></li>
-                                            <li><a href="index.php?page=error">Error Page</a></li>
-                                        </ul>
-
-                                    </li>
                                     <li><a href="index.php?page=gallery">Gallery</a></li>
                                     <li><a href="index.php?page=blog">Blog</a></li>
                                     <li><a href="index.php?page=contact">Contact us</a></li>

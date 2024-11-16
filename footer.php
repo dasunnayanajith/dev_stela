@@ -22,9 +22,9 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.php?page=home-travel"><img src="assets/img/logo-white.svg" alt="Tourm"></a>
+                                    <a href="index.php?page=home-travel"><img src="assets/img/logo.png" alt="Tourm"></a>
                                 </div>
-                                <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
+                                <p class="about-text"><?php echo $quote ;?></p>
                                 <div class="th-social">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>

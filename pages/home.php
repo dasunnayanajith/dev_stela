@@ -4,13 +4,13 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_1.jpg">
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_5_1.jpg">
                         </div>
                         <div class="container">
                             <div class="hero-style1">
                                 <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
                                 <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                    Natural Wonder of the world </h1>
+                                    Natural Wonder of the Sri Lanka </h1>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
                                     <a href="index.php?page=tour" class="th-btn th-icon">Explore Tours</a>
                                     <a href="index.php?page=service" class="th-btn style2 th-icon">Our Services</a>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_2.jpg">
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_5_2.jpg">
                         </div>
                         <div class="container">
                             <div class="hero-style1">
@@ -38,13 +38,64 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_3.jpg">
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_5_3.jpg">
                         </div>
                         <div class="container">
                             <div class="hero-style1">
                                 <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
                                 <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                    Explore beauty of the whole world </h1>
+                                    Explore beauty of the miracle of Indian Ocean </h1>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="index.php?page=tour" class="th-btn th-icon">Explore Tours</a>
+                                    <a href="index.php?page=service" class="th-btn style2 th-icon">Our Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_5_4.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="hero-style1">
+                                <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                    Natural Wonder of the Sri Lanka </h1>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="index.php?page=tour" class="th-btn th-icon">Explore Tours</a>
+                                    <a href="index.php?page=service" class="th-btn style2 th-icon">Our Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_5_5.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="hero-style1">
+                                <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                    Let’s make your best trip with us </h1>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="index.php?page=tour" class="th-btn th-icon">Explore Tours</a>
+                                    <a href="index.php?page=service" class="th-btn style2 th-icon">Our Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_5_6.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="hero-style1">
+                                <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                    Explore beauty of the miracle of Indian Ocean </h1>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
                                     <a href="index.php?page=tour" class="th-btn th-icon">Explore Tours</a>
                                     <a href="index.php?page=service" class="th-btn style2 th-icon">Our Services</a>
