@@ -13,20 +13,10 @@
         </div>
     </div><!--==============================
 tour Area
-==============================-->
+============================
     <section class="space">
-        <?php 
-        $pid=intval($_GET['pkgid']);
-        $sql = "SELECT * from tbltourpackages where PackageId=:pid";
-        $query = $dbh->prepare($sql);
-        $query -> bindParam(':pid', $pid, PDO::PARAM_STR);
-        $query->execute();
-        $results=$query->fetchAll(PDO::FETCH_OBJ);
-        $cnt=1;
-        if($query->rowCount() > 0)
-        {
-        foreach($results as $result)
-        {	?>
+
+        ==-->
 
         <div class="container">
             <div class="row">
@@ -441,7 +431,7 @@ tour Area
                     </div>
                 </div>
             </div>
-            <?php }} ?>
+    
             <div class="location-map">
                 <h3 class="page-title mt-45 mb-30">Location</h3>
                 <div class="contact-map style3">
