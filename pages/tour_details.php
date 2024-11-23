@@ -101,11 +101,11 @@ tour Area
                                 <a class="page-tag" href="index.php?page=tour">Featured</a>
                                 <span class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span>4.8</span></span>
                             </div>
-                            <h2 class="box-title"><?php echo htmlentities($result->PackageName);?></h2>
-                            <h4 class="tour-price"><span class="currency">$<?php echo htmlentities($result->PackagePrice);?></span>/Person</h4>
-                            <p class="box-text mb-30"><?php echo htmlentities($result->PackageDetails);?></p>
+                            <h2 class="box-title">PackageName</h2>
+                            <h4 class="tour-price"><span class="currency">$PackagePrice</span>/Person</h4>
+                            <p class="box-text mb-30">PackageDetails</p>
                             <h2 class="box-title">Highlights</h2>
-                            <p class="box-text mb-30"><?php echo htmlentities($result->PackageFetures);?></p>
+                            <p class="box-text mb-30">PackageFetures</p>
                             <div class="checklist mb-50">
                                 <ul>
                                     <li>Visit most popular location of Maldives</li>
