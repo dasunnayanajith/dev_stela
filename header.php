@@ -141,13 +141,9 @@ $companyshort = "Stelaran Holidays"
             <div class="animation-preloader">
                 <div class="txt-loading">
                     <span preloader-text="S" class="characters">S </span>
-
                     <span preloader-text="T" class="characters">T </span>
-
                     <span preloader-text="E" class="characters">E </span>
-
                     <span preloader-text="L" class="characters">L </span>
-
                     <span preloader-text="A" class="characters">A </span>
                     <span preloader-text="R" class="characters">R </span>
                     <span preloader-text="A" class="characters">A </span>
