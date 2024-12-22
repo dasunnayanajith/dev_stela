@@ -1,7 +1,7 @@
 <!--==============================
     Breadcumb
 ============================== -->
-<div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Tour Details</h1>
@@ -18,9 +18,9 @@ tour Area
 
      <!--====================================================TEST AREA=======================================================-->
 
-     <div class="tour-gallery-wrapper">
-                <h3 class="page-title mt-50 mb-30">From our gallery</h3>
-                <div class="row gy-4 gallery-row filter-active">
+        <div class="tour-gallery-wrapper">
+            <h3 class="page-title mt-50 mb-30">From our gallery</h3>
+            <div class="row gy-4 gallery-row filter-active">
                     
                 <?php 
                 // Extract the 'pkgid' from the URL
@@ -55,22 +55,18 @@ tour Area
                 }
                 ?>
 
-                </div>
             </div>
-          
-
+        </div>
  <!--====================================================TEST AREA=======================================================-->
            
-            <div class="location-map">
-                <h3 class="page-title mt-45 mb-30">Location</h3>
-                <div class="contact-map style3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1979.6639938990295!2d80.017571!3d7.087925!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1723311068981!5m2!1sen!2slk" allowfullscreen="" loading="lazy"></iframe>
-                    <div class="contact-icon">
-                        <img src="assets/img/icon/location-dot3.svg" alt="">
-                    </div>
+        <div class="location-map">
+            <h3 class="page-title mt-45 mb-30">Location</h3>
+            <div class="contact-map style3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1979.6639938990295!2d80.017571!3d7.087925!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1723311068981!5m2!1sen!2slk" allowfullscreen="" loading="lazy"></iframe>
+                <div class="contact-icon">
+                    <img src="assets/img/icon/location-dot3.svg" alt="">
                 </div>
             </div>
-
         </div>
         <div class="shape-mockup about-shape movingX d-none d-xxl-block" data-bottom="40%" data-right="17%">
             <img src="assets/img/normal/about-slide-img.png" alt="shape">
