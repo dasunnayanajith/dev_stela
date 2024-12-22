@@ -18,6 +18,47 @@ tour Area
 
      <!--====================================================TEST AREA=======================================================-->
 
+     <div class="tour-gallery-wrapper">
+                <h3 class="page-title mt-50 mb-30">From our gallery</h3>
+                <div class="row gy-4 gallery-row filter-active">
+                    
+                <?php 
+                // Extract the 'pkgid' from the URL
+                $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
+
+                if ($pkgid !== null) {
+                    $sql = "SELECT PackageImage FROM tms.tbltourpkgimages WHERE imgmaintype = false AND PackageId = :pkgid";
+                    $query = $dbh->prepare($sql);
+                    $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
+                    $query->execute();
+                    $results = $query->fetchAll(PDO::FETCH_OBJ);
+
+                    // Check if any records were found
+                    if ($query->rowCount() > 0) {
+                        // Loop through and display the records
+                        foreach ($results as $result) { ?>
+                            <div class="col-md-6 col-xl-auto filter-item">
+                                <div class="tour-gallery-card">
+                                    <div class="gallery-img global-img">
+                                        <img src="admin/img/pkgImages/galary_sub/<?php echo htmlspecialchars($result->PackageImage);?>" alt="gallery image">
+                                        <a href="admin/img/pkgImages/galary_sub/<?php echo htmlspecialchars($result->PackageImage);?>" class="icon-btn popup-image"><i class="fal fa-magnifying-glass-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php 
+                        }
+                    } else {
+                        echo "No records found for Package ID: " . htmlspecialchars($pkgid);
+                    }
+                } else {
+                    echo "Package ID not found in the URL.";
+                }
+                ?>
+
+                </div>
+            </div>
+          
+
  <!--====================================================TEST AREA=======================================================-->
            
             <div class="location-map">
