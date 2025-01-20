@@ -18,18 +18,6 @@ Destination Area
     <section class="position-relative overflow-hidden space" id="destination-sec">
         <div class="container">
             <div class="row gy-4 gx-4">
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="destination-item th-ani">
-                        <div class="destination-item_img global-img">
-                            <img src="assets/img/destination/destination_4_1.jpg" alt="image">
-                        </div>
-                        <div class="destination-content">
-                            <h3 class="box-title"><a href="index.php?page=contact">Photo Shoot</a></h3>
-                            <p class="destination-text">20 Listing</p>
-                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="destination-item th-ani">
@@ -47,50 +35,11 @@ Destination Area
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="destination-item th-ani">
                         <div class="destination-item_img global-img">
-                            <img src="assets/img/destination/destination_4_3.jpg" alt="image">
-                        </div>
-                        <div class="destination-content">
-                            <h3 class="box-title"><a href="index.php?page=contact">Cozy Event</a></h3>
-                            <p class="destination-text">23 Listing</p>
-                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="destination-item th-ani">
-                        <div class="destination-item_img global-img">
                             <img src="assets/img/destination/destination_4_4.jpg" alt="image">
                         </div>
                         <div class="destination-content">
                             <h3 class="box-title"><a href="index.php?page=contact">Interesting Rest</a></h3>
                             <p class="destination-text">24 Listing</p>
-                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="destination-item th-ani">
-                        <div class="destination-item_img global-img">
-                            <img src="assets/img/destination/destination_4_5.jpg" alt="image">
-                        </div>
-                        <div class="destination-content">
-                            <h3 class="box-title"><a href="index.php?page=contact">Kayaking</a></h3>
-                            <p class="destination-text">25 Listing</p>
-                            <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="destination-item th-ani">
-                        <div class="destination-item_img global-img">
-                            <img src="assets/img/destination/destination_4_6.jpg" alt="image">
-                        </div>
-                        <div class="destination-content">
-                            <h3 class="box-title"><a href="index.php?page=contact">Safe Flight</a></h3>
-                            <p class="destination-text">26 Listing</p>
                             <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>
                     </div>
