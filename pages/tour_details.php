@@ -27,7 +27,7 @@ tour Area
 $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
-    $sql = "SELECT PackageImage FROM tms.tbltourpkgimages WHERE imgmaintype = true AND PackageId = :pkgid";
+    $sql = "SELECT  `PackageImage` FROM `tbltourpkgimages` WHERE `imgtype` = true and `PackageId` = :pkgid";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
     $query->execute();
@@ -61,7 +61,7 @@ if ($pkgid !== null) {
 $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
-    $sql = "SELECT PackageImage FROM tms.tbltourpkgimages WHERE imgmaintype = true AND PackageId = :pkgid";
+    $sql = "SELECT  `PackageImage` FROM `tbltourpkgimages` WHERE `imgtype` = true and `PackageId` = :pkgid";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
     $query->execute();
@@ -93,7 +93,7 @@ if ($pkgid !== null) {
                         </div>
                         <?php 
         $pid=intval($_GET['pkgid']);
-        $sql = "SELECT * from tbltourpackages where PackageId=:pid";
+        $sql = "SELECT * FROM `tbltourpackages` WHERE `PackageId` = :pid";
         $query = $dbh->prepare($sql);
         $query -> bindParam(':pid', $pid, PDO::PARAM_STR);
         $query->execute();
@@ -145,7 +145,7 @@ if ($pkgid !== null) {
 $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
-    $sql = "SELECT HighlightItem FROM tms.tbltourpkghiglight where PackageId = :pkgid";
+    $sql = "SELECT `HighlightItem` FROM `tbltourpkghiglight` WHERE `PackageId`= :pkgid";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
     $query->execute();
@@ -175,9 +175,7 @@ $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
     // SQL query to fetch the boolean values for the package
-    $sql = "SELECT `Accommodation`, `Guide`, `Insurance`, `Meals`, `Transport`, `Flights`, `Safari Jeep`
-            FROM `tms`.`tbltourpkginexclude`
-            WHERE `PackageId` = :pkgid";
+    $sql = "SELECT `Accommodation`, `Guide`, `Insurance`, `Meals`, `Transport`, `Flights`, `Safari Jeep` FROM `tbltourpkginexclude` WHERE  `PackageId` = :pkgid";
     
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
@@ -241,7 +239,7 @@ if ($pkgid !== null) {
 $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
-    $sql = "SELECT DISTINCT DateId FROM tbltouractivities WHERE PackageId = :pkgid";
+    $sql = "SELECT DISTINCT `DateId` FROM `tbltouractivities` WHERE `PackageId` = :pkgid";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
     $query->execute();
@@ -288,7 +286,7 @@ if ($pkgid !== null) {
 $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
-    $sql = "SELECT DateId, ActivityName FROM tbltouractivities WHERE PackageId = :pkgid ORDER BY DateId ASC";
+    $sql = "SELECT `DateId`, `ActivityName` FROM `tbltouractivities` WHERE `PackageId` = :pkgid ORDER BY `DateId` ASC";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
     $query->execute();
@@ -357,7 +355,7 @@ if ($pkgid !== null) {
 $pkgid = isset($_GET['pkgid']) ? $_GET['pkgid'] : null;
 
 if ($pkgid !== null) {
-    $sql = "SELECT PackageImage FROM tms.tbltourpkgimages WHERE imgmaintype = false AND PackageId = :pkgid";
+    $sql = "SELECT `PackageImage` FROM `tbltourpkgimages` WHERE `imgtype` = false AND `PackageId` = :pkgid";
     $query = $dbh->prepare($sql);
     $query->bindParam(':pkgid', $pkgid, PDO::PARAM_INT);
     $query->execute();
