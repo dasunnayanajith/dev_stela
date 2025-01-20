@@ -437,12 +437,7 @@ About Area
                         <div class="title-area mb-20 pe-xl-5 me-xl-5">
                             <span class="sub-title style1 ">Let’s Go Together</span>
                             <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">Plan Your Trip With us</h2>
-
-                            <p class="sec-text mb-30">There are many variations of passages of available but the majority
-                                have
-                                suffered alteration in some form, by injected hum randomised words which don't look even
-                                slightly.
-                            </p>
+                            <p class="sec-text mb-30">Stelaran Holidays Pvt. Ltd. is a trusted travel partner specializing in personalized holiday packages for all kinds of travelers. From relaxing beach getaways to adventurous tours and cultural experiences, we ensure hassle-free planning, excellent service, and attention to detail. Whether for domestic or international trips, we make your journey memorable and stress-free.</p>
                         </div>
                         <div class="about-item-wrap">
                             <div class="about-item">

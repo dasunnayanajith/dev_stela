@@ -4,10 +4,10 @@
 <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About Tourm</h1>
+                <h1 class="breadcumb-title">About Us</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="index.php?page=home-travel">Home</a></li>
-                    <li>About Tourm</li>
+                    <li>About Us</li>
                 </ul>
             </div>
         </div>
@@ -33,11 +33,12 @@ About Area
                 <div class="col-xl-5">
                     <div class="ps-xl-4">
                         <div class="title-area mb-20">
-                            <span class="sub-title style1 ">Welcome To Tourm</span>
-                            <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">We are world reputeted travel agency</h2>
+                            <span class="sub-title style1 ">Welcome To Stelaran Holidays</span>
+                            <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">Experience Travel Like Never Before</h2>
                         </div>
-                        <p class="pe-xl-5">There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words.</p>
-                        <p class="mb-30 pe-xl-5"> Leiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                        <p class="pe-xl-5">Stelaran Holidays Pvt. Ltd. is your trusted partner for unforgettable travel experiences. We specialize in creating personalized holiday packages that suit every traveler’s needs, from relaxing beach vacations to adventurous tours and cultural trips.</p>
+                        <p class="pe-xl-5">Our team ensures hassle-free planning, great service, and attention to detail, so you can focus on making memories. Whether it’s a domestic getaway or an international trip, we’re here to make your journey smooth and enjoyable.</p>
+                        <p class="mb-30 pe-xl-5">Travel with Stelaran Holidays and explore the world your way!</p>
                         <div class="about-item-wrap">
                             <div class="about-item style2">
                                 <div class="about-item_img"><img src="assets/img/icon/about_1_1.svg" alt=""></div>
