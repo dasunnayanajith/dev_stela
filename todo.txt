@@ -20,7 +20,7 @@ Our Tours
 # Hide - News and Articles - Replace with promotions 
 
 Tailor-Made Tours 
-# Book A Tour - Send mail 
+# Book A Tour - Send mail - Same as ran lanka 
 # Update Video - https://www.youtube.com/watch?v=wwR5fEJyZus
 
 Galary 
