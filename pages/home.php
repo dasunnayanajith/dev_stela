@@ -521,10 +521,10 @@ Service Area
                                 <div class="tour-content">
                                     <h3 class="box-title"><a href="index.php?page=tour_details&pkgid=<?php echo htmlentities($result->PackageId);?>"><?php echo htmlentities($result->PackageName);?></a></h3>
                                     <div class="tour-rating">
-                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
-                                                <strong class="rating"><?php echo htmlentities($result->PackageRate);?></strong> out of 5 based on <span class="rating"><?php echo htmlentities($result->PackageRate);?></span>(4.8
+                                        <div class="star-rating" role="img" aria-label="Rated <?php echo htmlentities($result->PackageRate);?> out of 5"><span style="width:100%">Rated
+                                                <strong class="rating"><?php echo htmlentities($result->PackageRate);?></strong> out of 5 based on <span class="rating"><?php echo htmlentities($result->PackageRate);?></span>(<?php echo htmlentities($result->PackageRate);?>
                                                 Rating)</span></div>
-                                        <a href="index.php?page=tour_details&pkgid=<?php echo htmlentities($result->PackageId);?>" class="woocommerce-review-link">(<span class="count">4.8</span>
+                                        <a href="index.php?page=tour_details&pkgid=<?php echo htmlentities($result->PackageId);?>" class="woocommerce-review-link">(<span class="count"><?php echo htmlentities($result->PackageRate);?></span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$<?php echo htmlentities($result->PackagePrice);?></span>/Person</h4>
