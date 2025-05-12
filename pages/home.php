@@ -522,14 +522,14 @@ Service Area
                                     <h3 class="box-title"><a href="index.php?page=tour_details&pkgid=<?php echo htmlentities($result->PackageId);?>"><?php echo htmlentities($result->PackageName);?></a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated
-                                                <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8
+                                                <strong class="rating"><?php echo htmlentities($result->PackageRate);?></strong> out of 5 based on <span class="rating"><?php echo htmlentities($result->PackageRate);?></span>(4.8
                                                 Rating)</span></div>
                                         <a href="index.php?page=tour_details&pkgid=<?php echo htmlentities($result->PackageId);?>" class="woocommerce-review-link">(<span class="count">4.8</span>
                                             Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$<?php echo htmlentities($result->PackagePrice);?></span>/Person</h4>
                                     <div class="tour-action">
-                                        <span><i class="fa-light fa-clock"></i>7 Days</span>
+                                        <span><i class="fa-light fa-clock"></i><?php echo htmlentities($result->PackageDate);?> Days</span>
                                         <a href="index.php?page=tour_details&pkgid=<?php echo htmlentities($result->PackageId);?>" class="th-btn style4 th-icon">Book Now</a>
                                     </div>
                                 </div>
