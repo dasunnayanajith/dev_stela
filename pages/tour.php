@@ -59,10 +59,29 @@ Product Area
                             <div class="row gy-24 gx-24">
 
                                 <?php 
+                                $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
                                 $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
-                                // $pg_no = 1;
                                 $limit = 8*$pg_no ;
-                                $sql = "SELECT * from tbltourpackages LIMIT $limit";
+
+                                if ($sr_no == 0) {
+                                    $asc = "ASC";
+                                    $desc = "DESC";
+                                    $ord = "TR_id";
+                                } elseif ($sr_no == 1) {
+                                    $asc = "DESC";
+                                    $desc = "ASC";
+                                    $ord = "TR_rate";
+                                } elseif ($sr_no == 2) {
+                                    $asc = "ASC";
+                                    $desc = "DESC";
+                                    $ord = "PackagePrice";
+                                } elseif ($sr_no == 3) {
+                                    $asc = "DESC";
+                                    $desc = "ASC";
+                                    $ord = "PackagePrice";
+                                }
+
+                                $sql = "WITH CTE1 AS (SELECT * FROM tbltourpackages ORDER BY $ord $asc LIMIT $limit), CTE2 AS (SELECT * FROM CTE1 ORDER BY $ord $desc LIMIT 8) SELECT * FROM CTE2 ORDER BY $ord $asc;";
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -104,11 +123,30 @@ Product Area
                         <div class="tab-pane fade " id="tab-list" role="tabpanel" aria-labelledby="tab-tour-list">
                             <div class="row gy-30">
                                 
-                            <?php 
+                            <?php
+                                $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
                                 $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
-                                // $pg_no = 1;
                                 $limit = 8*$pg_no ;
-                                $sql = "SELECT * from tbltourpackages LIMIT $limit";
+
+                                if ($sr_no == 0) {
+                                    $asc = "ASC";
+                                    $desc = "DESC";
+                                    $ord = "TR_id";
+                                } elseif ($sr_no == 1) {
+                                    $asc = "DESC";
+                                    $desc = "ASC";
+                                    $ord = "TR_rate";
+                                } elseif ($sr_no == 2) {
+                                    $asc = "ASC";
+                                    $desc = "DESC";
+                                    $ord = "PackagePrice";
+                                } elseif ($sr_no == 3) {
+                                    $asc = "DESC";
+                                    $desc = "ASC";
+                                    $ord = "PackagePrice";
+                                }
+
+                                $sql = "WITH CTE1 AS (SELECT * FROM tbltourpackages ORDER BY $ord $asc LIMIT $limit), CTE2 AS (SELECT * FROM CTE1 ORDER BY $ord $desc LIMIT 8) SELECT * FROM CTE2 ORDER BY $ord $asc;";
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -147,11 +185,30 @@ Product Area
                         </div>
                         <div class="th-pagination text-center mt-60">
                             <ul>
-                                <li><a class="active" href="index.php?page=blog">1</a></li>
-                                <li><a href="index.php?page=blog">2</a></li>
-                                <li><a href="index.php?page=blog">3</a></li>
-                                <li><a href="index.php?page=blog">4</a></li>
-                                <li><a class="next-page" href="index.php?page=blog">Next <img src="assets/img/icon/arrow-right4.svg" alt=""></a></li>
+                            <?php
+                                $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
+                                $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
+                                $next_pg = $pg_no + 1;
+
+                                $sql = "SELECT COUNT(*) AS total FROM tbltourpackages";
+                                $query = $dbh->prepare($sql);
+                                $query->execute();
+                                $result = $query->fetch(PDO::FETCH_ASSOC);
+
+                                $total_records = $result['total'];
+                                $records_per_page = 8;
+                                $total_pages = ceil($total_records / $records_per_page);
+
+                                // Loop from 1 to total_pages
+                                for ($i = 1; $i <= $total_pages; $i++) {
+                                    if ($i == $pg_no) {
+                                        echo "<li><a class='active' href='index.php?page=tour&sr=$sr_no&pg=$i'>$i</a></li>";
+                                    } else {
+                                        echo "<li><a href='index.php?page=tour&sr=$sr_no&pg=$i'>$i</a></li>";
+                                    }
+                                }
+                                ?>
+                                <li><a class="next-page" href="index.php?page=tour&sr=<?php echo $sr_no; ?>&pg=<?php echo $next_pg; ?>">Next <img src="assets/img/icon/arrow-right4.svg" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
