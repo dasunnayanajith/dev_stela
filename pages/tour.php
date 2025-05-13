@@ -58,7 +58,11 @@ Product Area
                         <div class="tab-pane fade active show" id="tab-grid" role="tabpanel" aria-labelledby="tab-tour-grid">
                             <div class="row gy-24 gx-24">
 
-                                <?php $sql = "SELECT * from tbltourpackages";
+                                <?php 
+                                $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
+                                // $pg_no = 1;
+                                $limit = 8*$pg_no ;
+                                $sql = "SELECT * from tbltourpackages LIMIT $limit";
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -100,7 +104,11 @@ Product Area
                         <div class="tab-pane fade " id="tab-list" role="tabpanel" aria-labelledby="tab-tour-list">
                             <div class="row gy-30">
                                 
-                            <?php $sql = "SELECT * from tbltourpackages";
+                            <?php 
+                                $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
+                                // $pg_no = 1;
+                                $limit = 8*$pg_no ;
+                                $sql = "SELECT * from tbltourpackages LIMIT $limit";
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results=$query->fetchAll(PDO::FETCH_OBJ);
