@@ -6,7 +6,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Popular Tours</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.php?page=home-travel">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Popular Tours</li>
                 </ul>
             </div>
@@ -38,16 +38,21 @@ Product Area
 
                                 <a href="#" id="tab-destination-list" data-bs-toggle="tab" data-bs-target="#tab-list" role="tab" aria-controls="tab-list" aria-selected="false" class=""><i class="fa-solid fa-list"></i></a>
                             </div>
-                            <form class="woocommerce-ordering" method="get">
-                                <select name="orderby" class="orderby" aria-label="destination order">
-                                    <option value="menu_order" selected="selected">Default Sorting</option>
-                                    <option value="popularity">Sort by popularity</option>
-                                    <option value="rating">Sort by average rating</option>
-                                    <option value="date">Sort by latest</option>
-                                    <option value="price">Sort by price: low to high</option>
-                                    <option value="price-desc">Sort by price: high to low</option>
-                                </select>
-                            </form>
+                                <form class="woocommerce-ordering" method="get">
+                                    <?php 
+                                        $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
+                                        $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
+                                    ?>
+                                    <input type="hidden" name="page" value="tour">
+                                    <input type="hidden" name="pg" value="<?php echo $pg_no; ?>">
+
+                                    <select name="sr" class="orderby" aria-label="destination order" onchange="this.form.submit()">
+                                        <option value="0" <?php if ($sr_no == 0) echo 'selected'; ?>>Default Sorting</option>
+                                        <option value="1" <?php if ($sr_no == 1) echo 'selected'; ?>>Sort by popularity</option>
+                                        <option value="2" <?php if ($sr_no == 2) echo 'selected'; ?>>Sort by price: low to high</option>
+                                        <option value="3" <?php if ($sr_no == 3) echo 'selected'; ?>>Sort by price: high to low</option>
+                                    </select>
+                                </form>
                         </div>
                     </div>
                 </div>

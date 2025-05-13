@@ -6,9 +6,9 @@ Video Area
             <div class="row flex-row-reverse justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="video-box1">
-                        <a href="https://www.youtube.com/watch?v=7h4wud3HMZQ" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
-                    </div>
-   
+                        <a href="https://www.youtube.com/watch?v=wwR5fEJyZus" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+                        <!-- <a href="https://www.youtube.com/watch?v=7h4wud3HMZQ" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a> -->
+                    </div>  
                 </div>
                 <div class="col-lg-6">
                     <div>

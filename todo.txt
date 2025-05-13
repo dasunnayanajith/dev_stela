@@ -13,18 +13,18 @@ Services
 # Air Ticketing and Visa - Guding / - Ranlanka tours 
 
 Our Tours 
-# Date Issue - Most Popular tours 
-# Catergeries - section 
-# Page Navigation
-# Thumbnails view 
-# Hide - News and Articles - Replace with promotions 
+# Date Issue - Most Popular tours - Completed  
+# Page Navigation  - Completed  
+# Thumbnails view   - Completed  
 
 Tailor-Made Tours 
 # Book A Tour - Send mail - Same as ran lanka 
-# Update Video - https://www.youtube.com/watch?v=wwR5fEJyZus
+# Update Video - https://www.youtube.com/watch?v=wwR5fEJyZus - Completed
 
 Galary 
 # Change Photos - with location filter 
 # Location update 
 
-
+Side Banner
+# Catergeries - section 
+# Hide - News and Articles - Replace with promotions 
