@@ -28,7 +28,7 @@ Counter Area
                     <div class="counter-card">
                         <div class="counter-shape"><span></span></div>
                         <div class="media-body">
-                            <h3 class="box-number"><span class="counter-number">8</span>k</h3>
+                            <h3 class="box-number"><span class="counter-number">30</span>+</h3>
                             <h6 class="counter-title">Tour Completed</h6>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ Counter Area
                     <div class="counter-card">
                         <div class="counter-shape"><span></span></div>
                         <div class="media-body">
-                            <h3 class="box-number"><span class="counter-number">19</span>k</h3>
+                            <h3 class="box-number"><span class="counter-number">75</span>+</h3>
                             <h6 class="counter-title">Happy Travellers</h6>
                         </div>
                     </div>
