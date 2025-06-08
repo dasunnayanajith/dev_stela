@@ -1,7 +1,7 @@
 Home Page
 # Selection Bar - Destination /
-# WildLife / Treking and hiking /Beach tours /Honeymoon 
-# Change Photos - Lets plan your your trip with us 
+# WildLife / Treking and hiking /Beach tours /Honeymoon  - Completed 
+# Change Photos - Lets plan your your trip with us - Completed
 # Date Issue - Most Popular tours - Completed 
 # Change photos - Galary Photos 
 # Hide - News and Articles - Replace with promotions 

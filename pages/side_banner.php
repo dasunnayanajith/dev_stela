@@ -1,30 +1,55 @@
 <div class="widget widget_categories  ">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
+                                <?php
+                                $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
+                                $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
+                                $next_pg = $pg_no + 1;
+
+                                $sql = "WITH CTE3 AS (
+                                            SELECT TR_id, PackageType 
+                                            FROM `tbltourpackages` 
+                                            WHERE PackageType IS NOT NULL
+                                        ),
+                                        CTE4 AS (
+                                            SELECT cat_id, category_full 
+                                            FROM `tbltourcategories`
+                                        ),
+                                        CTE5 AS (
+                                            SELECT 
+                                                CTE3.TR_id, 
+                                                CTE3.PackageType, 
+                                                CTE4.category_full 
+                                            FROM CTE3 
+                                            JOIN CTE4 
+                                            ON CTE3.PackageType = CTE4.cat_id
+                                        )
+
+                                        SELECT 
+                                            CTE5.PackageType, 
+                                            CTE5.category_full,
+                                            COUNT(*) AS total_count
+                                        FROM 
+                                            CTE5 
+                                        GROUP BY 
+                                            CTE5.PackageType, 
+                                            CTE5.category_full
+                                        ORDER BY total_count DESC;
+                                        ";
+                                $query = $dbh->prepare($sql);
+                                $query->execute();
+                                $results=$query->fetchAll(PDO::FETCH_OBJ);
+                                $cnt=1;
+                                if($query->rowCount() > 0)
+                                {
+                                foreach($results as $result)
+                                {	?>
                                 <li>
-                                    <a href="index.php?page=blog"><img src="assets/img/theme-img/map.svg" alt="">City Tour</a>
-                                    <span>(8)</span>
+                                    <a href="index.php?page=tour&cat=<?php echo htmlentities($result->PackageType);?>&sr=<?php $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0; echo $sr_no;?>&pg=<?php $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1; echo $pg_no;?>"><img src="assets/img/theme-img/map.svg" alt=""><?php echo htmlentities($result->category_full);?></a>
+                                    <span>(<?php echo htmlentities($result->total_count);?>)</span>
                                 </li>
-                                <li>
-                                    <a href="index.php?page=blog"><img src="assets/img/theme-img/map.svg" alt="">Beach Tours</a>
-                                    <span>(6)</span>
-                                </li>
-                                <li>
-                                    <a href="index.php?page=blog"><img src="assets/img/theme-img/map.svg" alt="">Wildlife Tours</a>
-                                    <span>(2)</span>
-                                </li>
-                                <li>
-                                    <a href="index.php?page=blog"><img src="assets/img/theme-img/map.svg" alt="">News & Tips</a>
-                                    <span>(7)</span>
-                                </li>
-                                <li>
-                                    <a href="index.php?page=blog"><img src="assets/img/theme-img/map.svg" alt="">Adventure Tours</a>
-                                    <span>(9)</span>
-                                </li>
-                                <li>
-                                    <a href="index.php?page=blog"><img src="assets/img/theme-img/map.svg" alt="">Mountain Tours</a>
-                                    <span>(10)</span>
-                                </li>
+                                 <?php }} ?>
+                                
                             </ul>
                         </div>
                         <div class="widget  ">
@@ -66,7 +91,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="widget widget_tag_cloud  ">
+                        <!-- <div class="widget widget_tag_cloud  ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 <a href="index.php?page=blog">Tour</a>
@@ -78,7 +103,7 @@
                                 <a href="index.php?page=blog">Luxury</a>
                                 <a href="index.php?page=blog">Travel</a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="widget widget_offer  " data-bg-src="assets/img/bg/widget_bg_1.jpg">
                             <div class="offer-banner">
                                 <div class="offer">
