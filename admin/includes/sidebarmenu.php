@@ -9,10 +9,12 @@
 										
 									 <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Tour Packages</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
 										   <ul id="menu-academico-sub" >
-										   <li id="menu-academico-avaliacoes" ><a href="create-package.php">Create</a></li>
+									   <li id="menu-academico-avaliacoes" ><a href="create-package.php">Create</a></li>
 											<li id="menu-academico-avaliacoes" ><a href="manage-packages.php">Manage</a></li>
 										  </ul>
 										</li>
+									<li><a href="manage-testimonials.php"><i class="fa fa-star" aria-hidden="true"></i>  <span>Manage Testimonials</span><div class="clearfix"></div></a></li>
+									<li><a href="manage-book-tour-prompts.php"><i class="fa fa-edit" aria-hidden="true"></i>  <span>Book A Tour Prompts</span><div class="clearfix"></div></a></li>
 									<li id="menu-academico" ><a href="manage-users.php"><i class="fa fa-users" aria-hidden="true"></i><span>Manage Users</span><div class="clearfix"></div></a></li>
 									
 									<li><a href="manage-bookings.php"><i class="fa fa-list" aria-hidden="true"></i>  <span>Manage Booking</span><div class="clearfix"></div></a></li>

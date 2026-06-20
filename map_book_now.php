@@ -1,3 +1,10 @@
+<?php
+require_once __DIR__ . '/includes/content_helpers.php';
+$defaultPrompts = sh_default_book_tour_prompts();
+$titleOptions = isset($dbh) ? sh_get_book_tour_options($dbh, 'title') : $defaultPrompts['title'];
+$accommodationOptions = isset($dbh) ? sh_get_book_tour_options($dbh, 'accommodation') : $defaultPrompts['accommodation'];
+$foundUsOptions = isset($dbh) ? sh_get_book_tour_options($dbh, 'found_us') : $defaultPrompts['found_us'];
+?>
 <!--==============================
 Video Area  
 ==============================-->
@@ -18,12 +25,9 @@ Video Area
                                 <div class="form-group col-3">
                                     <select name="subject" id="subject" class="form-select nice-select">
                                         <option value="Select Tour Type" selected disabled>Title</option>
-                                        <option value="Mr.">Mr.</option>
-                                        <option value="Mrs.">Mrs.</option>
-                                        <option value="Ms.">Ms.</option>
-                                        <option value="Miss.">Miss.</option>
-                                        <option value="Dr.">Dr.</option>
-                                        <option value="Prof.">Prof.</option>
+                                        <?php foreach ($titleOptions as $option) { ?>
+                                        <option value="<?php echo htmlentities($option); ?>"><?php echo htmlentities($option); ?></option>
+                                        <?php } ?>
                                     </select>
                                 </div>
                                 <div class="col-9 form-group">
@@ -119,21 +123,17 @@ Video Area
                                 <div class="form-group col-4">
                                     <select name="subject" id="subject" class="form-control nice-select">
                                         <option value="Select Tour Type" selected disabled>Accommodation</option>
-                                        <option value="5 Star Hotels">5 Star Hotels</option>
-                                        <option value="4 Star Hotels">4 Star Hotels</option>
-                                        <option value="3 Star Hotels">3 Star Hotels</option>
-                                        <option value="Luxury Boutiques">Luxury Boutiques</option>
-                                        <option value="Wallet Friendly">Wallet Friendly</option>
+                                        <?php foreach ($accommodationOptions as $option) { ?>
+                                        <option value="<?php echo htmlentities($option); ?>"><?php echo htmlentities($option); ?></option>
+                                        <?php } ?>
                                     </select>
                                 </div>
                                 <div class="form-group col-4">
                                     <select name="subject" id="subject" class="form-control nice-select">
                                         <option value="Select Tour Type" selected disabled>Found Us</option>
-                                        <option value="Africa Adventure">Tripadvisor</option>
-                                        <option value="Africa Wild">Website</option>
-                                        <option value="Asia">Google</option>
-                                        <option value="Scandinavia">Social media</option>
-                                        <option value="Western Europe">Other</option>
+                                        <?php foreach ($foundUsOptions as $option) { ?>
+                                        <option value="<?php echo htmlentities($option); ?>"><?php echo htmlentities($option); ?></option>
+                                        <?php } ?>
                                     </select>
                                 </div>
                                 <div class="form-group col-12">

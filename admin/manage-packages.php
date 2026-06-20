@@ -112,7 +112,12 @@ foreach($results as $result)
 							<td><?php echo htmlentities($result->PackageLocation);?></td>
 							<td>$<?php echo htmlentities($result->PackagePrice);?></td>
 							<td><?php echo htmlentities($result->Creationdate);?></td>
-							<td><a href="update-package.php?pid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-primary btn-block">View Details</button></a></td>
+							<td>
+								<a href="update-package.php?pid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-primary btn-block">View Details</button></a>
+								<a href="manage_highlights.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-info btn-block">Highlights</button></a>
+								<a href="manage_activities.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-info btn-block">Activities</button></a>
+								<a href="package-images.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-info btn-block">Images</button></a>
+							</td>
 						  </tr>
 						 <?php $cnt=$cnt+1;} }?>
 						</tbody>

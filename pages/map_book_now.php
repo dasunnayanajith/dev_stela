@@ -4,6 +4,10 @@ if (is_file($localMailConfig)) {
     require_once $localMailConfig;
 }
 $turnstileSiteKey = getenv('TURNSTILE_SITE_KEY') ?: '';
+require_once __DIR__ . '/../includes/content_helpers.php';
+$titleOptions = sh_get_book_tour_options($dbh, 'title');
+$accommodationOptions = sh_get_book_tour_options($dbh, 'accommodation');
+$foundUsOptions = sh_get_book_tour_options($dbh, 'found_us');
 ?>
 <form action="mail.php" method="POST" class="contact-form style2">
 
@@ -17,12 +21,9 @@ $turnstileSiteKey = getenv('TURNSTILE_SITE_KEY') ?: '';
         <div class="form-group col-3">
             <select name="title" class="form-select nice-select" required>
                 <option value="" disabled selected>Title</option>
-                <option>Mr.</option>
-                <option>Mrs.</option>
-                <option>Ms.</option>
-                <option>Miss.</option>
-                <option>Dr.</option>
-                <option>Prof.</option>
+                <?php foreach ($titleOptions as $option) { ?>
+                <option><?php echo htmlentities($option); ?></option>
+                <?php } ?>
             </select>
         </div>
 
@@ -85,11 +86,9 @@ $turnstileSiteKey = getenv('TURNSTILE_SITE_KEY') ?: '';
         <div class="form-group col-4">
             <select name="accommodation" class="form-control nice-select">
                 <option value="" disabled selected>Accommodation</option>
-                <option>5 Star Hotels</option>
-                <option>4 Star Hotels</option>
-                <option>3 Star Hotels</option>
-                <option>Luxury Boutiques</option>
-                <option>Wallet Friendly</option>
+                <?php foreach ($accommodationOptions as $option) { ?>
+                <option><?php echo htmlentities($option); ?></option>
+                <?php } ?>
             </select>
         </div>
 
@@ -97,11 +96,9 @@ $turnstileSiteKey = getenv('TURNSTILE_SITE_KEY') ?: '';
         <div class="form-group col-4">
             <select name="found_us" class="form-control nice-select">
                 <option value="" disabled selected>Found Us</option>
-                <option>Tripadvisor</option>
-                <option>Website</option>
-                <option>Google</option>
-                <option>Social Media</option>
-                <option>Other</option>
+                <?php foreach ($foundUsOptions as $option) { ?>
+                <option><?php echo htmlentities($option); ?></option>
+                <?php } ?>
             </select>
         </div>
 
