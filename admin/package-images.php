@@ -77,7 +77,7 @@
 <body>
     <div class="container">
         <h3>Upload Package Image</h3>
-        <a href="update-package.php?pid=<?php echo $pid; ?>" class="btn btn-primary">Back<?php echo $pid; ?></a>
+        <a href="update-package.php?pid=<?php echo htmlentities($pid); ?>" class="btn btn-primary">Back to Package</a>
         
         <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
@@ -85,7 +85,7 @@
         <form action="" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="packageid">Package ID</label>
-                <input type="text" class="form-control" name="packageid" id="packageid" placeholder="Enter Package ID" required>
+                <input type="text" class="form-control" name="packageid" id="packageid" value="<?php echo htmlentities($pid); ?>" placeholder="Enter Package ID" required>
             </div>
 
             <div class="form-group">

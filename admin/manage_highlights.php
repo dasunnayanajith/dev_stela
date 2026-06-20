@@ -52,6 +52,7 @@ if(isset($_POST['submit'])) {
 
 // Fetch highlights for a specific PackageId
 $packageid = isset($_GET['pkgid']) ? intval($_GET['pkgid']) : 0;
+$pid = $packageid;
 $sql = "SELECT * FROM tbltourpkghiglight WHERE PackageId = :packageid";
 $query = $dbh->prepare($sql);
 $query->bindParam(':packageid', $packageid, PDO::PARAM_INT);
@@ -88,7 +89,7 @@ $highlights = $query->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <div class="container">
         <h3>Manage Package Highlights</h3>
-        <a href="update-package.php?pid=<?php echo $pid; ?>" class="btn btn-primary">Back<?php echo $pid; ?></a>
+        <a href="update-package.php?pid=<?php echo htmlentities($pid); ?>" class="btn btn-primary">Back to Package</a>
 
         <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>

@@ -1,3 +1,3 @@
 <div class="copyrights">
-	 <p>© 2020 TMS. All Rights Reserved |  <a href="#">TMS</a> </p>
+	 <p>Stelaran Holidays Admin | <a href="../index.php">View main site</a></p>
 </div>	

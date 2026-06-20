@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('includes/config.php');
+require_once __DIR__ . '/includes/helpers.php';
 require_admin_login('admin/index.php');
 
 $uploadMessage = '';

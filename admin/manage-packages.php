@@ -2,11 +2,24 @@
 session_start();
 error_reporting(0);
 include('includes/config.php');
+require_once __DIR__ . '/../includes/package_helpers.php';
 if(strlen($_SESSION['alogin'])==0)
 	{	
 header('location:index.php');
 }
 else{ 
+sh_ensure_package_visibility_column($dbh);
+
+if (isset($_GET['toggle']) && is_numeric($_GET['toggle'])) {
+	$packageId = (int) $_GET['toggle'];
+	$sql = "UPDATE tbltourpackages SET is_active = IF(is_active = 1, 0, 1) WHERE PackageId = :packageid";
+	$query = $dbh->prepare($sql);
+	$query->bindParam(':packageid', $packageId, PDO::PARAM_INT);
+	$query->execute();
+	header('location:manage-packages.php');
+	exit;
+}
+
 	?>
 <!DOCTYPE HTML>
 <html>
@@ -90,6 +103,7 @@ else{
 							<th>Type</th>
 							<th>Location</th>
 							<th>Price</th>
+							<th>Status</th>
 							<th>Creation Date</th>
 							<th>Action</th>
 						  </tr>
@@ -111,9 +125,17 @@ foreach($results as $result)
 							<td><?php echo htmlentities($result->PackageType);?></td>
 							<td><?php echo htmlentities($result->PackageLocation);?></td>
 							<td>$<?php echo htmlentities($result->PackagePrice);?></td>
+							<td>
+								<?php if ((int)$result->is_active === 1) { ?>
+									<span class="label label-success">Shown</span>
+								<?php } else { ?>
+									<span class="label label-default">Hidden</span>
+								<?php } ?>
+							</td>
 							<td><?php echo htmlentities($result->Creationdate);?></td>
 							<td>
 								<a href="update-package.php?pid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-primary btn-block">View Details</button></a>
+								<a href="manage-packages.php?toggle=<?php echo htmlentities($result->PackageId);?>" onclick="return confirm('Change package visibility?');"><button type="button" class="btn btn-warning btn-block"><?php echo ((int)$result->is_active === 1) ? 'Hide' : 'Show'; ?></button></a>
 								<a href="manage_highlights.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-info btn-block">Highlights</button></a>
 								<a href="manage_activities.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-info btn-block">Activities</button></a>
 								<a href="package-images.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-info btn-block">Images</button></a>

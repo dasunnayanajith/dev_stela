@@ -215,7 +215,7 @@ $cnt5=$query5->rowCount();
 			padding: 10,
         behaveLikeLine: true,
         gridEnabled: false,
-        gridLineColor: '#dddddd',
+        gridLineColor: '#E1E4E5',
         axes: true,
         resize: true,
         smooth:true,
@@ -234,7 +234,7 @@ $cnt5=$query5->rowCount();
 				{period: '2016 Q1', iphone: 10697, ipad: 4470, itouch: 2038},
 				{period: '2016 Q2', iphone: 8442, ipad: 5723, itouch: 1801}
 			],
-			lineColors:['#ff4a43','#a2d200','#22beef'],
+			lineColors:['#1CA8CB','#113D48','#FFB539'],
 			xkey: 'period',
             redraw: true,
             ykeys: ['iphone', 'ipad', 'itouch'],

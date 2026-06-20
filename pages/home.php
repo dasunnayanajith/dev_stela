@@ -375,7 +375,10 @@ Service Area
                     <div class="swiper-wrapper">
 
 
-                        <?php $sql = "SELECT * from tbltourpackages";
+                        <?php
+                                require_once __DIR__ . '/../includes/package_helpers.php';
+                                sh_ensure_package_visibility_column($dbh);
+                                $sql = "SELECT * from tbltourpackages WHERE is_active = 1";
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results=$query->fetchAll(PDO::FETCH_OBJ);

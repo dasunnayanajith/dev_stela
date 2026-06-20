@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'admin', 'f925916e2754e5e03f75dd58a5733251', '2020-05-11 11:18:49');
+(1, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', '2020-05-11 11:18:49');
 
 -- --------------------------------------------------------
 
@@ -353,7 +353,8 @@ INSERT INTO `tblusers` (`id`, `FullName`, `MobileNumber`, `EmailId`, `Password`,
 (2, 'Kishan', '9871987979', 'kishan@gmail.com', '202cb962ac59075b964b07152d234b70', '2020-07-08 06:33:56', NULL),
 (3, 'Salvi Chandra', '1398756416', 'salvi@gmail.com', '202cb962ac59075b964b07152d234b70', '2020-07-08 06:34:20', NULL),
 (4, 'Abir', '4789756456', 'abir@gmail.com', '202cb962ac59075b964b07152d234b70', '2020-07-08 06:34:38', NULL),
-(5, 'Test', '1987894654', 'anuj@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2020-07-08 06:35:06', '2021-05-11 04:37:41');
+(5, 'Test', '1987894654', 'anuj@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2020-07-08 06:35:06', '2021-05-11 04:37:41'),
+(6, 'Admin', NULL, 'linda.nayana96@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99', '2026-06-20 00:00:00', NULL);
 
 --
 -- Indexes for dumped tables

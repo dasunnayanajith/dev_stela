@@ -1,6 +1,10 @@
 <!--==============================
     Breadcumb
 ============================== -->
+<?php
+require_once __DIR__ . '/../includes/package_helpers.php';
+sh_ensure_package_visibility_column($dbh);
+?>
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
@@ -19,7 +23,7 @@ tour Area
     <script async type="module" src="https://assets.api.b2b.tourradar.com/widgets/loader.mjs"></script>
     <?php 
         $pid=intval($_GET['pkgid']);
-        $sql = "SELECT `TR_id` FROM `tbltourpackages` WHERE `PackageId` = :pid";
+        $sql = "SELECT `TR_id` FROM `tbltourpackages` WHERE `PackageId` = :pid AND is_active = 1";
         $query = $dbh->prepare($sql);
         $query -> bindParam(':pid', $pid, PDO::PARAM_STR);
         $query->execute();

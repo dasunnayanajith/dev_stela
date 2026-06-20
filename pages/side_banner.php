@@ -2,6 +2,8 @@
                             <h3 class="widget_title">Categories</h3>
                             <ul>
                                 <?php
+                                require_once __DIR__ . '/../includes/package_helpers.php';
+                                sh_ensure_package_visibility_column($dbh);
                                 $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
                                 $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
                                 $next_pg = $pg_no + 1;
@@ -10,6 +12,7 @@
                                             SELECT TR_id, PackageType 
                                             FROM `tbltourpackages` 
                                             WHERE PackageType IS NOT NULL
+                                            AND is_active = 1
                                         ),
                                         CTE4 AS (
                                             SELECT cat_id, category_full 

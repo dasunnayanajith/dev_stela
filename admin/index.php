@@ -1,19 +1,22 @@
 <?php
 session_start();
 include('includes/config.php');
+require_once __DIR__ . '/../includes/helpers.php';
 if(isset($_POST['login']))
 {
 $uname=$_POST['username'];
 $password=md5($_POST['password']);
-$sql ="SELECT UserName,Password FROM admin WHERE UserName=:uname and Password=:password";
+$adminEmail = env_value('ADMIN_EMAIL', 'linda.nayana96@gmail.com');
+$sql ="SELECT EmailId,Password FROM tblusers WHERE EmailId=:uname and Password=:password and EmailId=:admin_email";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':uname', $uname, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
+$query-> bindParam(':admin_email', $adminEmail, PDO::PARAM_STR);
 $query-> execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 if($query->rowCount() > 0)
 {
-$_SESSION['alogin']=$_POST['username'];
+$_SESSION['alogin']=$uname;
 echo "<script type='text/javascript'> document.location = 'dashboard.php'; </script>";
 } else{
 	
@@ -56,8 +59,8 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 		<h2>Sign In</h2>
 		<form  method="post">
 			<div class="username">
-				<span class="username">Username:</span>
-				<input type="text" name="username" class="name" placeholder="" required="">
+				<span class="username">Email:</span>
+				<input type="email" name="username" class="name" placeholder="" required="">
 				<div class="clearfix"></div>
 			</div>
 			<div class="password-agileits">
@@ -71,6 +74,9 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 			</div>
 			<div class="clearfix"></div>
 		</form>
+				<div class="back">
+					<a href="forgot-password.php">Forgot password?</a>
+				</div>
 				<div class="back">
 					<a href="../index.php">Back to home</a>
 				</div>
