@@ -44,8 +44,11 @@
                                     <li><a href="index.php?page=index">Home</a></li>
                                     <li><a href="index.php?page=about">About us</a></li>
                                     <li><a href="index.php?page=service">Our Service</a></li>
-                                    <li><a href="index.php?page=contact">Terms of Service</a></li>
-                                    <li><a href="index.php?page=contact">Tour Booking Now</a></li>
+                                    <li><a href="index.php?page=terms_and_conditions">Terms & Conditions</a></li>
+                                    <li><a href="index.php?page=refund_policy">Refund Policy</a></li>
+                                    <li><a href="index.php?page=privacy_policy">Privacy Policy</a></li>
+                                    <li><a href="index.php?page=cancellation_policy">Cancellation Policy</a></li>
+                                    <li><a href="index.php?page=booking_policy">Booking Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,8 +62,8 @@
                                         <img src="assets/img/icon/phone.svg" alt="img">
                                     </div>
                                     <div class="details">
-                                        <p><a href="tel:+01234567890" class="info-box_link"><?php echo $phoneNumber1 ;?></a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link"><?php echo $phoneNumber2 ;?></a></p>
+                                        <p><a href="tel:<?php echo $phoneNumber1 ;?>" class="info-box_link"><?php echo $phoneNumber1 ;?></a></p>
+                                        <p><a href="tel:<?php echo $phoneNumber2 ;?>" class="info-box_link"><?php echo $phoneNumber2 ;?></a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
@@ -68,8 +71,8 @@
                                         <img src="assets/img/icon/envelope.svg" alt="img">
                                     </div>
                                     <div class="details">
-                                        <p><a href="mailto:mailinfo00@tourm.com" class="info-box_link"><?php echo $email1 ;?></a></p>
-                                        <p><a href="mailto:support24@tourm.com" class="info-box_link"><?php echo $email2 ;?></a></p>
+                                        <p><a href="mailto:<?php echo $email1 ;?>" class="info-box_link"><?php echo $email1 ;?></a></p>
+                                        <p><a href="mailto:<?php echo $email2 ;?>" class="info-box_link"><?php echo $email2 ;?></a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
@@ -119,7 +122,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <p class="copyright-text">Copyright 2024 <a href="index.php?page=home-travel">Tourm</a>. All Rights Reserved.</p>
+                        <p class="copyright-text">Copyright 2024 <a href="index.php?page=home-travel"><?php echo $companyshort ;?></a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">
                         <div class="footer-card">

@@ -227,8 +227,8 @@ Category Area
                             <div class="box-img global-img">
                                 <img src="assets/img/category/<?php echo htmlentities($result->image_id);?>" alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="index.php?page=destination"><?php echo htmlentities($result->category_part);?></a></h3>
-                            <a class="line-btn" href="index.php?page=destination">See more</a>
+                            <h3 class="box-title"><a href="index.php?page=tour&cat=<?php echo htmlentities($result->cat_id);?>"><?php echo htmlentities($result->category_part);?></a></h3>
+                            <a class="line-btn" href="index.php?page=tour&cat=<?php echo htmlentities($result->cat_id);?>">See more</a>
                         </div>
                     </div>
                     
@@ -366,8 +366,7 @@ Service Area
                     <div class="title-area text-center">
                         <span class="sub-title">Best Place For You</span>
                         <h2 class="sec-title">Most Popular Tour</h2>
-                        <p class="sec-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="sec-text">Discover the essence of Sri Lanka with our most-loved journeys, where adventure, culture, and comfort come together in perfect harmony.</p>
                     </div>
                 </div>
             </div>

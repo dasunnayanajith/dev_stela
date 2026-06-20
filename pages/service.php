@@ -6,7 +6,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Services</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.php?page=home-travel">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Services</li>
                 </ul>
             </div>
@@ -35,10 +35,10 @@ Destination Area
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="destination-item th-ani">
                         <div class="destination-item_img global-img">
-                            <img src="assets/img/destination/destination_4_4.jpg" alt="image">
+                            <img src="assets/img/destination/destination_4_9.jpg" alt="image">
                         </div>
                         <div class="destination-content">
-                            <h3 class="box-title"><a href="index.php?page=contact">Interesting Rest</a></h3>
+                            <h3 class="box-title"><a href="index.php?page=contact">Air Ticketing</a></h3>
                             <p class="destination-text">24 Listing</p>
                             <a href="index.php?page=contact" class="th-btn style4 th-icon">Book Now</a>
                         </div>

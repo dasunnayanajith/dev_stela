@@ -1,4 +1,4 @@
-    <!--==============================
+<!--==============================
 Brand Area  
 ==============================-->
 <div class="brand-area overflow-hidden ">
@@ -6,12 +6,29 @@ Brand Area
             <div class="swiper th-slider brandSlider1" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"6"},"1400":{"slidesPerView":"6"}}}'>
                 <div class="swiper-wrapper">
 
+                    <!--<div class="swiper-slide">-->
+                    <!--    <div class="brand-box">-->
+                    <!--        <a href="">-->
+                    <!--            <img class="original" src="assets/img/brand/brand_1_1.png" alt="Brand Logo">-->
+                    <!--            <img class="gray" src="assets/img/brand/brand_1_1.png" alt="Brand Logo">-->
+                    <!--        </a>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <link href="https://www.tourradar.com/include/css/operator_badge_widget.css" rel="stylesheet" type="text/css">
                     <div class="swiper-slide">
                         <div class="brand-box">
-                            <a href="">
-                                <img class="original" src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
-                                <img class="gray" src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
-                            </a>
+                            <div id="operator_badge_widget_small">
+                              <a href="https://www.tourradar.com/" target="_blank">
+                                <div class="logo-container">
+                                  <div class="logo"></div>
+                                </div>
+                              </a>
+                              <a href="https://www.tourradar.com/o/stelaranholidays-pvt-ltd" target="_blank">
+                                <div class="partner">
+                                    <span>Trusted Partner</span>
+                                </div>
+                              </a>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -54,6 +71,7 @@ Brand Area
                             </a>
                         </div>
                     </div>
+                    
                 </div>
 
             </div>

@@ -1,7 +1,7 @@
 <?php
 // Assigning phone number to a variable
 $phoneNumber1 = "+94766610222";
-$phoneNumber2 = "+94703660222";
+$phoneNumber2 = "";
 $email1 = "info@stelaranholidays.com";
 $email2 = "stelaranholidays@gmail.com";
 $address = " 54/9/1, 3rd Lane, Hansagiri Rd, Gampaha, Sri Lanka";
@@ -17,32 +17,32 @@ $quote = "Your Holiday Your Choice. Miracle of Indian Ocean, discover Sri Lanka 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Stelaran Holidays</title>
-    <meta name="author" content="Tourm">
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template ">
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template ">
+    <title><?php echo $companyshort ;?></title>
+    <meta name="author" content="<?php echo $companyshort ;?>">
+    <meta name="description" content="<?php echo $companyshort ;?>">
+    <meta name="keywords" content="<?php echo $companyshort ;?>">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/logo-57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/logo-60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/logo-72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/logo-76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/logo-114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/logo-120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/logo-144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/logo-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/logo-180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/logo-92.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/logo-32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/logo-96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/logo-16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/logo-144.png">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/logo-16.png">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
