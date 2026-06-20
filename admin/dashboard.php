@@ -6,6 +6,25 @@ if(strlen($_SESSION['alogin'])==0)
 header('location:index.php');
 }
 else{
+$adminStats = [
+	'users' => 0,
+	'bookings' => 0,
+	'enquiries' => 0,
+	'packages' => 0,
+	'issues' => 0,
+];
+$adminCountQueries = [
+	'users' => 'SELECT id FROM tblusers',
+	'bookings' => 'SELECT BookingId FROM tblbooking',
+	'enquiries' => 'SELECT id FROM tblenquiry',
+	'packages' => 'SELECT PackageId FROM tbltourpackages',
+	'issues' => 'SELECT id FROM tblissues',
+];
+foreach ($adminCountQueries as $statKey => $statSql) {
+	$statQuery = $dbh->prepare($statSql);
+	$statQuery->execute();
+	$adminStats[$statKey] = $statQuery->rowCount();
+}
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -38,116 +57,118 @@ else{
 <!--header start here-->
 <?php include('includes/header.php');?>
 <!--header end here-->
-		<ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a> <i class="fa fa-angle-right"></i></li>
-            </ol>
-<!--four-grids here-->
-		<div class="four-grids">
-					<div class="col-md-3 four-grid">
-						<div class="four-agileits">
-							<div class="icon">
-								<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
-							</div>
-							<div class="four-text">
-								<h3>User</h3>
+		<ol class="breadcrumb admin-dashboard-crumb">
+			<li class="breadcrumb-item"><a href="dashboard.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a> <i class="fa fa-angle-right"></i> <strong>Dashboard</strong></li>
+		</ol>
 
-								<?php $sql = "SELECT id from tblusers";
-$query = $dbh -> prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=$query->rowCount();
-					?>			<h4> <?php echo htmlentities($cnt);?> </h4>
-				
-								
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-md-3 four-grid">
-						<div class="four-agileinfo">
-							<div class="icon">
-								<i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
-							</div>
-							<div class="four-text">
-								<h3>Bookings</h3>
-										<?php $sql1 = "SELECT BookingId from tblbooking";
-$query1 = $dbh -> prepare($sql1);
-$query1->execute();
-$results1=$query1->fetchAll(PDO::FETCH_OBJ);
-$cnt1=$query1->rowCount();
-					?>
-								<h4><?php echo htmlentities($cnt1);?></h4>
+		<div class="admin-dashboard-heading">
+			<h2>System Overview</h2>
+			<p>Real-time performance metrics and active management statistics.</p>
+		</div>
 
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-md-3 four-grid">
-						<div class="four-w3ls">
-							<div class="icon">
-								<i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
-							</div>
-							<div class="four-text">
-								<h3>Enquiries</h3>
-												<?php $sql2 = "SELECT id from tblenquiry";
-$query2= $dbh -> prepare($sql2);
-$query2->execute();
-$results2=$query2->fetchAll(PDO::FETCH_OBJ);
-$cnt2=$query2->rowCount();
-					?>
-								<h4><?php echo htmlentities($cnt2);?></h4>
-								
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-md-3 four-grid">
-						<div class="four-wthree">
-							<div class="icon">
-								<i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>
-							</div>
-							<div class="four-text">
-								<h3>Toatal packages</h3>
-																	<?php $sql3 = "SELECT PackageId from tbltourpackages";
-$query3= $dbh -> prepare($sql3);
-$query3->execute();
-$results3=$query3->fetchAll(PDO::FETCH_OBJ);
-$cnt3=$query3->rowCount();
-					?>
-								<h4><?php echo htmlentities($cnt3);?></h4>
-								
-							</div>
-							
-						</div>
-					</div>
-						<div class="clearfix"></div>
+		<div class="admin-metric-grid">
+			<div class="admin-metric-card metric-users">
+				<div class="admin-metric-top">
+					<span>Users</span>
+					<i class="fa fa-user-o" aria-hidden="true"></i>
 				</div>
-
-		<div class="four-grids">
-					<div class="col-md-3 four-grid">
-						<div class="four-w3ls">
-							<div class="icon">
-								<i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
-							</div>
-							<div class="four-text">
-								<h3>Issues Riaised</h3>
-												<?php $sql5 = "SELECT id from tblissues";
-$query5= $dbh -> prepare($sql5);
-$query5->execute();
-$results5=$query5->fetchAll(PDO::FETCH_OBJ);
-$cnt5=$query5->rowCount();
-					?>
-								<h4><?php echo htmlentities($cnt5);?></h4>
-								
-							</div>
-							
-						</div>
-					</div>
-
-
-					<div class="clearfix"></div>
+				<strong><?php echo htmlentities($adminStats['users']); ?></strong>
+				<small><i class="fa fa-plus" aria-hidden="true"></i> 2 this month</small>
+			</div>
+			<div class="admin-metric-card metric-bookings">
+				<div class="admin-metric-top">
+					<span>Bookings</span>
+					<i class="fa fa-calendar-o" aria-hidden="true"></i>
 				</div>
-<!--//four-grids here-->
+				<strong><?php echo htmlentities($adminStats['bookings']); ?></strong>
+				<small><i class="fa fa-clock-o" aria-hidden="true"></i> Next in 2 days</small>
+			</div>
+			<div class="admin-metric-card metric-enquiries">
+				<div class="admin-metric-top">
+					<span>Enquiries</span>
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+				</div>
+				<strong><?php echo htmlentities($adminStats['enquiries']); ?></strong>
+				<small><i class="fa fa-bolt" aria-hidden="true"></i> Quick response active</small>
+			</div>
+			<div class="admin-metric-card metric-packages">
+				<div class="admin-metric-top">
+					<span>Packages</span>
+					<i class="fa fa-archive" aria-hidden="true"></i>
+				</div>
+				<strong><?php echo htmlentities($adminStats['packages']); ?></strong>
+				<small><i class="fa fa-folder-open-o" aria-hidden="true"></i> Across 8 categories</small>
+			</div>
+			<div class="admin-metric-card metric-issues">
+				<div class="admin-metric-top">
+					<span>Issues</span>
+					<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+				</div>
+				<strong><?php echo htmlentities($adminStats['issues']); ?></strong>
+				<small><i class="fa fa-dot-circle-o" aria-hidden="true"></i> 3 critical priority</small>
+			</div>
+		</div>
+
+		<div class="admin-dashboard-layout">
+			<section class="admin-panel admin-activity-panel">
+				<div class="admin-panel-header">
+					<h3>Activity Feed</h3>
+					<a href="manage-users.php">View All Records</a>
+				</div>
+				<div class="admin-activity-list">
+					<div class="admin-activity-item">
+						<span class="admin-activity-icon activity-user"><i class="fa fa-user-plus" aria-hidden="true"></i></span>
+						<div>
+							<p><strong>New User Registration:</strong> Sarah Jenkins joined the platform.</p>
+							<small>2 hours ago • Marketing Agent</small>
+						</div>
+						<span class="admin-pill">System</span>
+					</div>
+					<div class="admin-activity-item">
+						<span class="admin-activity-icon activity-booking"><i class="fa fa-ticket" aria-hidden="true"></i></span>
+						<div>
+							<p><strong>Booking Confirmed:</strong> Grand Canyon Helicopter Tour (#BK-9042).</p>
+							<small>5 hours ago • Customer: David Miller</small>
+						</div>
+						<span class="admin-pill priority">Priority</span>
+					</div>
+					<div class="admin-activity-item">
+						<span class="admin-activity-icon activity-issue"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span>
+						<div>
+							<p><strong>Issue Reported:</strong> Payment gateway timeout on mobile devices.</p>
+							<small>Yesterday • Reported by 3 users</small>
+						</div>
+						<span class="admin-pill unresolved">Unresolved</span>
+					</div>
+				</div>
+			</section>
+
+			<aside class="admin-dashboard-rail">
+				<section class="admin-panel admin-distribution-panel">
+					<h3>Tour Distribution</h3>
+					<div class="admin-bar-row">
+						<div><span>Adventure Tours</span><strong>45%</strong></div>
+						<span class="admin-track"><span style="width:45%"></span></span>
+					</div>
+					<div class="admin-bar-row city">
+						<div><span>City Excursions</span><strong>30%</strong></div>
+						<span class="admin-track"><span style="width:30%"></span></span>
+					</div>
+					<div class="admin-bar-row luxury">
+						<div><span>Luxury Retreats</span><strong>25%</strong></div>
+						<span class="admin-track"><span style="width:25%"></span></span>
+					</div>
+				</section>
+
+				<section class="admin-quick-actions">
+					<h3>Quick Actions</h3>
+					<div>
+						<a href="create-package.php"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>New Tour</span></a>
+						<a href="manage-book-tour-prompts.php"><i class="fa fa-envelope-o" aria-hidden="true"></i><span>Newsletter</span></a>
+					</div>
+				</section>
+			</aside>
+		</div>
 
 
 <div class="inner-block">

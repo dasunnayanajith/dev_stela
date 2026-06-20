@@ -15,8 +15,8 @@ if (!function_exists('admin_nav_active')) {
 						<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> 
 					</header>
 					<div class="admin-sidebar-brand">
-						<a href="dashboard.php">Stelaran</a>
-						<span>Admin Console</span>
+						<a href="dashboard.php">Stelar Admin</a>
+						<span>Management Portal</span>
 					</div>
 						<div style="border-top:1px ridge rgba(255, 255, 255, 0.15)"></div>
                            <div class="menu">
@@ -36,5 +36,12 @@ if (!function_exists('admin_nav_active')) {
 							     
 									
 								  </ul>
+								</div>
+								<div class="admin-sidebar-profile">
+									<span class="admin-sidebar-avatar"><img src="images/User-icon.png" alt=""></span>
+									<span>
+										<strong>Administrator Profile</strong>
+										<small>SUPER ADMIN</small>
+									</span>
 								</div>
 							  </div>
