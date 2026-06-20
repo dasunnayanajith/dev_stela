@@ -131,6 +131,7 @@ Product Area
                             <?php
                                 $sr_no = isset($_GET['sr']) ? $_GET['sr'] : 0;
                                 $pg_no = isset($_GET['pg']) ? $_GET['pg'] : 1;
+                                $cat_no = isset($_GET['cat']) ? $_GET['cat'] : 0;
                                 $limit = 8*$pg_no ;
 
                                 if ($sr_no == 0) {
@@ -151,7 +152,11 @@ Product Area
                                     $ord = "PackagePrice";
                                 }
 
-                                $sql = "WITH CTE1 AS (SELECT * FROM tbltourpackages ORDER BY $ord $asc LIMIT $limit), CTE2 AS (SELECT * FROM CTE1 ORDER BY $ord $desc LIMIT 8) SELECT * FROM CTE2 ORDER BY $ord $asc;";
+                                if ($cat_no == 0) {
+                                    $sql = "WITH CTE1 AS (SELECT * FROM tbltourpackages ORDER BY $ord $asc LIMIT $limit), CTE2 AS (SELECT * FROM CTE1 ORDER BY $ord $desc LIMIT 8) SELECT * FROM CTE2 ORDER BY $ord $asc;";
+                                }elseif ($cat_no == 6){
+                                    $sql = "WITH CTE1 AS (SELECT * FROM tbltourpackages WHERE PackageType = $cat_no ORDER BY $ord $asc LIMIT $limit), CTE2 AS (SELECT * FROM CTE1 ORDER BY $ord $desc LIMIT 8) SELECT * FROM CTE2 ORDER BY $ord $asc;";
+                                }
                                 $query = $dbh->prepare($sql);
                                 $query->execute();
                                 $results=$query->fetchAll(PDO::FETCH_OBJ);
