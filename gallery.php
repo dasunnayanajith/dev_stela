@@ -1,5 +1,7 @@
 <?php
+session_start();
 include('includes/config.php');
+require_admin_login('admin/index.php');
 
 $uploadMessage = '';
 $deleteMessage = '';

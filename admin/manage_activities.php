@@ -2,6 +2,7 @@
 session_start();
 error_reporting(0);
 include('includes/config.php');
+require_admin_login('index.php');
 
 $msg = "";
 $error = "";
@@ -115,7 +116,7 @@ foreach ($activities as $activity) {
 <body>
     <div class="container">
         <h3>Manage Activities</h3>
-        <a href="update-package.php?pid=<?php echo intval($_GET['pid']; ?>" class="btn btn-primary">Back</a>
+        <a href="update-package.php?pid=<?php echo htmlentities($packageid); ?>" class="btn btn-primary">Back</a>
 
         <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>

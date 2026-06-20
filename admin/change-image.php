@@ -11,15 +11,23 @@ else{
 if(isset($_POST['submit']))
 {
 
-$pimage=$_FILES["packageimage"]["name"];
-move_uploaded_file($_FILES["packageimage"]["tmp_name"],"pacakgeimages/".$_FILES["packageimage"]["name"]);
-$sql="update TblTourPackages set PackageImage=:pimage where PackageId=:imgid";
-$query = $dbh->prepare($sql);
+$uploadError = validate_uploaded_image($_FILES['packageimage'] ?? null);
+if ($uploadError) {
+    $error = $uploadError;
+} else {
+    $pimage = safe_uploaded_image_name($_FILES["packageimage"]["name"], "package_");
+    if (move_uploaded_file($_FILES["packageimage"]["tmp_name"],"pacakgeimages/".$pimage)) {
+        $sql="update TblTourPackages set PackageImage=:pimage where PackageId=:imgid";
+        $query = $dbh->prepare($sql);
 
-$query->bindParam(':imgid',$imgid,PDO::PARAM_STR);
-$query->bindParam(':pimage',$pimage,PDO::PARAM_STR);
-$query->execute();
-$msg="Package Created Successfully";
+        $query->bindParam(':imgid',$imgid,PDO::PARAM_STR);
+        $query->bindParam(':pimage',$pimage,PDO::PARAM_STR);
+        $query->execute();
+        $msg="Package Image Updated Successfully";
+    } else {
+        $error="Failed to upload package image.";
+    }
+}
 
 
 

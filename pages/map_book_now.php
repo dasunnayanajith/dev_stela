@@ -1,6 +1,15 @@
+<?php
+$localMailConfig = __DIR__ . '/../mail.local.php';
+if (is_file($localMailConfig)) {
+    require_once $localMailConfig;
+}
+$turnstileSiteKey = getenv('TURNSTILE_SITE_KEY') ?: '';
+?>
 <form action="mail.php" method="POST" class="contact-form style2">
 
     <h3 class="sec-title mb-30">Book a Tour</h3>
+    <input type="hidden" name="submitted_at" value="<?php echo time(); ?>">
+    <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
 
     <div class="row">
 
@@ -101,6 +110,12 @@
             <textarea name="message" class="form-control" placeholder="Your Message"></textarea>
         </div>
 
+        <?php if ($turnstileSiteKey): ?>
+        <div class="form-group col-12">
+            <div class="cf-turnstile" data-sitekey="<?php echo htmlspecialchars($turnstileSiteKey, ENT_QUOTES, 'UTF-8'); ?>"></div>
+        </div>
+        <?php endif; ?>
+
         <div class="form-btn col-12">
             <button type="submit" class="th-btn style3">
                 Send Message
@@ -112,6 +127,9 @@
 
 <!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<?php if ($turnstileSiteKey): ?>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<?php endif; ?>
 
 <script>
 document.getElementById('personSelector').addEventListener('click', function() {

@@ -5,3 +5,6 @@ admin/.DS_Store
 assets/.DS_Store
 assets/img/.DS_Store
 assets/img/category/.DS_Store
+includes/config.local.php
+admin/includes/config.local.php
+mail.local.php

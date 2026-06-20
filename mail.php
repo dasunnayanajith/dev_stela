@@ -5,37 +5,86 @@ use PHPMailer\PHPMailer\Exception;
 require 'PHPMailer/Exception.php';
 require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
+require_once __DIR__ . '/includes/helpers.php';
+
+$localMailConfig = __DIR__ . '/mail.local.php';
+if (is_file($localMailConfig)) {
+    require $localMailConfig;
+}
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    // Collect form data
-    $title         = $_POST['title'] ?? '';
-    $name          = $_POST['full_name'] ?? '';
-    $email         = $_POST['email'] ?? '';
-    $contact       = $_POST['contact'] ?? '';
-    $dateRange     = $_POST['date_range'] ?? '';
-    $persons       = $_POST['persons'] ?? '';
-    $country       = $_POST['country'] ?? '';
-    $accommodation = $_POST['accommodation'] ?? '';
-    $foundUs       = $_POST['found_us'] ?? '';
-    $message       = $_POST['message'] ?? '';
+    $submittedAt = isset($_POST['submitted_at']) ? (int) $_POST['submitted_at'] : 0;
+    if (!empty($_POST['website']) || ($submittedAt && time() - $submittedAt < 3)) {
+        http_response_code(400);
+        exit('Invalid submission.');
+    }
+
+    if (!verify_turnstile_token($_POST['cf-turnstile-response'] ?? '', $_SERVER['REMOTE_ADDR'] ?? null)) {
+        http_response_code(400);
+        exit('Verification failed. Please try again.');
+    }
+
+    $title         = clean_text($_POST['title'] ?? '', 20);
+    $name          = clean_text($_POST['full_name'] ?? '', 120);
+    $email         = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
+    $contact       = clean_text($_POST['contact'] ?? '', 40);
+    $dateRange     = clean_text($_POST['date_range'] ?? '', 120);
+    $persons       = clean_text($_POST['persons'] ?? '', 120);
+    $country       = clean_text($_POST['country'] ?? '', 80);
+    $accommodation = clean_text($_POST['accommodation'] ?? '', 80);
+    $foundUs       = clean_text($_POST['found_us'] ?? '', 80);
+    $message       = clean_text($_POST['message'] ?? '', 2000);
+
+    if (!$name || !$email || !$contact || !$dateRange || !$persons) {
+        http_response_code(422);
+        exit('Please complete the required fields.');
+    }
+
+    $smtpHost = env_value('SMTP_HOST', 'mail.stelaranholidays.com');
+    $smtpUser = env_value('SMTP_USER', 'bookings@stelaranholidays.com');
+    $smtpPass = env_value('SMTP_PASS', 'AAp5roLnMO');
+    $smtpPort = (int) env_value('SMTP_PORT', 465);
+    $smtpFrom = env_value('SMTP_FROM', $smtpUser);
+    $smtpFromName = env_value('SMTP_FROM_NAME', 'Book A Tour');
+    $mailTo = env_value('CONTACT_MAIL_TO', 'stelaranholidays@gmail.com');
+    $mailBcc = env_value('CONTACT_MAIL_BCC', 'linda.nayana96@gmail.com');
+
+    if (!$smtpHost || !$smtpUser || !$smtpPass || !$smtpFrom || !$mailTo) {
+        error_log('SMTP configuration is missing.');
+        http_response_code(500);
+        exit('Email service is not configured.');
+    }
+
+    $safe = [
+        'title' => escape_html($title),
+        'name' => escape_html($name),
+        'email' => escape_html($email),
+        'contact' => escape_html($contact),
+        'dateRange' => escape_html($dateRange),
+        'persons' => escape_html($persons),
+        'country' => escape_html($country),
+        'accommodation' => escape_html($accommodation),
+        'foundUs' => escape_html($foundUs),
+        'message' => nl2br(escape_html($message)),
+    ];
 
     $mail = new PHPMailer(true);
 
     try {
-        // SMTP settings
         $mail->isSMTP();
-        $mail->Host       = 'mail.stelaranholidays.com';
+        $mail->Host       = $smtpHost;
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'bookings@stelaranholidays.com';
-        $mail->Password   = 'AAp5roLnMO'; // 🔴 CHANGE
+        $mail->Username   = $smtpUser;
+        $mail->Password   = $smtpPass;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 465;
+        $mail->Port       = $smtpPort;
 
-        // Email setup
-        $mail->setFrom('bookings@stelaranholidays.com', 'Book A Tour');
-        $mail->addAddress('stelaranholidays@gmail.com');   
-        $mail->addBCC('linda.nayana96@gmail.com');    // Blind carbon copy
+        $mail->setFrom($smtpFrom, $smtpFromName);
+        $mail->addAddress($mailTo);
+        if ($mailBcc) {
+            $mail->addBCC($mailBcc);
+        }
         $mail->addReplyTo($email, $name);
 
         $mail->isHTML(true);
@@ -76,44 +125,44 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <table width="100%" cellpadding="10" cellspacing="0" style="margin-top:20px; border-collapse:collapse;">
                             <tr style="background:#f8f9fb;">
                                 <td><strong>Name</strong></td>
-                                <td>'.$title.' '.$name.'</td>
+                                <td>'.$safe['title'].' '.$safe['name'].'</td>
                             </tr>
                             <tr>
                                 <td><strong>Email</strong></td>
-                                <td>'.$email.'</td>
+                                <td>'.$safe['email'].'</td>
                             </tr>
                             <tr style="background:#f8f9fb;">
                                 <td><strong>Contact</strong></td>
-                                <td>'.$contact.'</td>
+                                <td>'.$safe['contact'].'</td>
                             </tr>
                             <tr>
                                 <td><strong>Country</strong></td>
-                                <td>'.$country.'</td>
+                                <td>'.$safe['country'].'</td>
                             </tr>
                             <tr style="background:#f8f9fb;">
                                 <td><strong>Date Range</strong></td>
-                                <td>'.$dateRange.'</td>
+                                <td>'.$safe['dateRange'].'</td>
                             </tr>
                             <tr>
                                 <td><strong>Persons</strong></td>
-                                <td>'.$persons.'</td>
+                                <td>'.$safe['persons'].'</td>
                             </tr>
                             <tr style="background:#f8f9fb;">
                                 <td><strong>Accommodation</strong></td>
-                                <td>'.$accommodation.'</td>
+                                <td>'.$safe['accommodation'].'</td>
                             </tr>
                             <tr>
                                 <td><strong>Found Us</strong></td>
-                                <td>'.$foundUs.'</td>
+                                <td>'.$safe['foundUs'].'</td>
                             </tr>
                             <tr style="background:#f8f9fb;">
                                 <td><strong>Message</strong></td>
-                                <td>'.$message.'</td>
+                                <td>'.$safe['message'].'</td>
                             </tr>
                         </table>
         
                         <!-- Button -->
-                        <a href="mailto:'.$email.'" style="
+                        <a href="mailto:'.$safe['email'].'" style="
                             display:inline-block;
                             margin-top:25px;
                             padding:12px 30px;
@@ -149,10 +198,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
         $mail->send();
-        // Redirect to home page
         header("Location: index.php");
         exit;
     } catch (Exception $e) {
-        echo "❌ Error: {$mail->ErrorInfo}";
+        error_log($mail->ErrorInfo);
+        http_response_code(500);
+        echo "Email could not be sent.";
     }
 }

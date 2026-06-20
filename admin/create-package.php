@@ -14,7 +14,6 @@ $ptype=$_POST['packagetype'];
 $pprice=$_POST['packageprice'];	
 $pfeatures=$_POST['packagefeatures'];
 $pdetails=$_POST['packagedetails'];	
-$pimage=$_FILES["packageimage"]["name"];
 // New fields
 $prate=$_POST['packagerate'];
 $pgroupsize=$_POST['packagegroupsize'];
@@ -22,31 +21,39 @@ $pagerange=$_POST['packageagerange'];
 $prating=$_POST['packagephysicalrating'];
 $planguage=$_POST['packagelanguage'];
 $ppickup=$_POST['packagepickup'];
-move_uploaded_file($_FILES["packageimage"]["tmp_name"],"pacakgeimages/".$_FILES["packageimage"]["name"]);
-$sql="INSERT INTO tbltourpackages(PackageName,PackageType,PackagePrice,PackageRate,PackageFetures,PackageDetails,PackageImage,PackageGroupSize,PackageAgeRange,PackagePhysicalRating,PackageLanguage,PackagePickup) VALUES(:pname,:ptype,:pprice,:prate,:pfeatures,:pdetails,:pimage,:pgroupsize,:pagerange,:prating,:planguage,:ppickup)";
-$query = $dbh->prepare($sql);
-$query->bindParam(':pname',$pname,PDO::PARAM_STR);
-$query->bindParam(':ptype',$ptype,PDO::PARAM_STR);
-$query->bindParam(':pprice',$pprice,PDO::PARAM_STR);
-$query->bindParam(':pfeatures',$pfeatures,PDO::PARAM_STR);
-$query->bindParam(':pdetails',$pdetails,PDO::PARAM_STR);
-$query->bindParam(':pimage',$pimage,PDO::PARAM_STR);
-// Bind new fields
-$query->bindParam(':prate',$prate,PDO::PARAM_STR);
-$query->bindParam(':pgroupsize',$pgroupsize,PDO::PARAM_STR);
-$query->bindParam(':pagerange',$pagerange,PDO::PARAM_STR);
-$query->bindParam(':prating',$prating,PDO::PARAM_STR);
-$query->bindParam(':planguage',$planguage,PDO::PARAM_STR);
-$query->bindParam(':ppickup',$ppickup,PDO::PARAM_STR);
-$query->execute();
-$lastInsertId = $dbh->lastInsertId();
-if($lastInsertId)
-{
-$msg="Package Created Successfully";
-}
-else 
-{
-$error="Something went wrong. Please try again";
+$uploadError = validate_uploaded_image($_FILES['packageimage'] ?? null);
+if ($uploadError) {
+    $error = $uploadError;
+} else {
+    $pimage = safe_uploaded_image_name($_FILES["packageimage"]["name"], "package_");
+    if (move_uploaded_file($_FILES["packageimage"]["tmp_name"],"pacakgeimages/".$pimage)) {
+        $sql="INSERT INTO tbltourpackages(PackageName,PackageType,PackagePrice,PackageRate,PackageFetures,PackageDetails,PackageImage,PackageGroupSize,PackageAgeRange,PackagePhysicalRating,PackageLanguage,PackagePickup) VALUES(:pname,:ptype,:pprice,:prate,:pfeatures,:pdetails,:pimage,:pgroupsize,:pagerange,:prating,:planguage,:ppickup)";
+        $query = $dbh->prepare($sql);
+        $query->bindParam(':pname',$pname,PDO::PARAM_STR);
+        $query->bindParam(':ptype',$ptype,PDO::PARAM_STR);
+        $query->bindParam(':pprice',$pprice,PDO::PARAM_STR);
+        $query->bindParam(':pfeatures',$pfeatures,PDO::PARAM_STR);
+        $query->bindParam(':pdetails',$pdetails,PDO::PARAM_STR);
+        $query->bindParam(':pimage',$pimage,PDO::PARAM_STR);
+        $query->bindParam(':prate',$prate,PDO::PARAM_STR);
+        $query->bindParam(':pgroupsize',$pgroupsize,PDO::PARAM_STR);
+        $query->bindParam(':pagerange',$pagerange,PDO::PARAM_STR);
+        $query->bindParam(':prating',$prating,PDO::PARAM_STR);
+        $query->bindParam(':planguage',$planguage,PDO::PARAM_STR);
+        $query->bindParam(':ppickup',$ppickup,PDO::PARAM_STR);
+        $query->execute();
+        $lastInsertId = $dbh->lastInsertId();
+        if($lastInsertId)
+        {
+        $msg="Package Created Successfully";
+        }
+        else
+        {
+        $error="Something went wrong. Please try again";
+        }
+    } else {
+        $error="Failed to upload package image.";
+    }
 }
 
 }

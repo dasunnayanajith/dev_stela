@@ -2,50 +2,49 @@
     session_start();
     error_reporting(0);
     include('includes/config.php');
+    require_admin_login('index.php');
     
+    $pid = isset($_GET['pid']) ? intval($_GET['pid']) : 0;
     $msg = "";
     $error = "";
     
     if(isset($_POST['submit'])) {
         $packageid = $_POST['packageid'];
         $imgmaintype = isset($_POST['imgmaintype']) ? 1 : 0;
-    
-        $image = $_FILES["packageimage"]["name"];
-        $ext = pathinfo($image, PATHINFO_EXTENSION);
-        
-        // Rename image with a unique name
-        $new_image_name = "img_" . uniqid() . "." . $ext;
-        
-        // Determine the correct directory based on imgmaintype
-        if ($imgmaintype == 1) {
-            $target_directory = "img/pkgImages/galary_main/";
+
+        $uploadError = validate_uploaded_image($_FILES['packageimage'] ?? null);
+        if ($uploadError) {
+            $error = $uploadError;
         } else {
-            $target_directory = "img/pkgImages/galary_sub/";
-        }
-        
-        // Ensure the directory exists
-        if (!is_dir($target_directory)) {
-            mkdir($target_directory, 0755, true);
-        }
-        
-        // Move the uploaded file to the correct directory
-        if (move_uploaded_file($_FILES["packageimage"]["tmp_name"], $target_directory.$new_image_name)) {
-            // Insert the image data into the database
-            $sql = "INSERT INTO tbltourpkgimages (PackageId,imgmaintype,PackageImage) VALUES (:packageid, :imgmaintype, :packageimage)";
-            $query = $dbh->prepare($sql);
-            $query->bindParam(':packageid', $packageid, PDO::PARAM_INT);
-            $query->bindParam(':imgmaintype', $imgmaintype, PDO::PARAM_INT);
-            $query->bindParam(':packageimage', $new_image_name, PDO::PARAM_STR);
-            $query->execute();
-    
-            $lastInsertId = $dbh->lastInsertId();
-            if($lastInsertId) {
-                $msg = "Image Uploaded Successfully";
+            $new_image_name = safe_uploaded_image_name($_FILES['packageimage']['name']);
+
+            if ($imgmaintype == 1) {
+                $target_directory = "img/pkgImages/galary_main/";
             } else {
-                $error = "Something went wrong. Please try again";
+                $target_directory = "img/pkgImages/galary_sub/";
             }
-        } else {
-            $error = "Failed to upload image. Please try again";
+
+            if (!is_dir($target_directory)) {
+                mkdir($target_directory, 0755, true);
+            }
+
+            if (move_uploaded_file($_FILES["packageimage"]["tmp_name"], $target_directory.$new_image_name)) {
+                $sql = "INSERT INTO tbltourpkgimages (PackageId,imgmaintype,PackageImage) VALUES (:packageid, :imgmaintype, :packageimage)";
+                $query = $dbh->prepare($sql);
+                $query->bindParam(':packageid', $packageid, PDO::PARAM_INT);
+                $query->bindParam(':imgmaintype', $imgmaintype, PDO::PARAM_INT);
+                $query->bindParam(':packageimage', $new_image_name, PDO::PARAM_STR);
+                $query->execute();
+    
+                $lastInsertId = $dbh->lastInsertId();
+                if($lastInsertId) {
+                    $msg = "Image Uploaded Successfully";
+                } else {
+                    $error = "Something went wrong. Please try again";
+                }
+            } else {
+                $error = "Failed to upload image. Please try again";
+            }
         }
     }
 ?>
