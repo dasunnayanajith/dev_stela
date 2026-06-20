@@ -1,0 +1,51 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stelaran_php
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      DB_HOST: db
+      DB_USER: stelaran_dasun
+      DB_PASS: 9zWx3k9mZbdW
+      DB_NAME: stelaran_tms
+      SMTP_HOST: mail.stelaranholidays.com
+      SMTP_USER: bookings@stelaranholidays.com
+      SMTP_PASS: AAp5roLnMO
+      SMTP_PORT: 465
+      SMTP_FROM: bookings@stelaranholidays.com
+      SMTP_FROM_NAME: Book A Tour
+      CONTACT_MAIL_TO: stelaranholidays@gmail.com
+      CONTACT_MAIL_BCC: linda.nayana96@gmail.com
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mariadb:10.6
+    container_name: stelaran_db
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: stelaran_tms
+      MYSQL_USER: stelaran_dasun
+      MYSQL_PASSWORD: 9zWx3k9mZbdW
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - stelaran_db_data:/var/lib/mysql
+      - ./stelaran_tms.sql:/docker-entrypoint-initdb.d/001-stelaran_tms.sql:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  stelaran_db_data:
